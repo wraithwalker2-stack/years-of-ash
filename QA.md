@@ -40,6 +40,7 @@
 - Save migration now clamps malformed Common forge material counts to non-negative integers.
 - High-ground tiles now reduce incoming enemy damage by one, with deterministic combat coverage.
 - Hazard tiles now reduce outgoing attack damage by one, complementing movement hazard damage.
+- Enemy pathing now clamps proposed steps to the authored 8 × 6 board bounds.
 - Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
 - World travel now advances by the displayed route duration and recalculates the saved season consistently.
@@ -59,7 +60,7 @@
 
 ## Commands
 
-`pnpm test` — 23 test files, 53 tests passing.
+`pnpm test` — 23 test files, 54 tests passing.
 
 `pnpm build` — passing.
 
