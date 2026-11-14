@@ -74,6 +74,8 @@ Packet-authored Floodworks, Southgate, and Veilwake scenes now back the expanded
 
 Character Ledger now exposes gated job changes at Job Level 2; switching applies the new job starter skill/passive and clears incompatible reactions through one save-backed action.
 
+Job-change eligibility and starter-kit behavior now have direct data-layer regression tests; the suite is 24 files / 61 tests passing.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
