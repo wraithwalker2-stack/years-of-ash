@@ -22,7 +22,7 @@
 - Faction standing now has explicit Hostile/Neutral/Trusted/Allied tiers with visible consequences on the job board.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 52 · v0.52.0 Charter Integrity for validated retainer state.
+- Version label advanced to Milestone 53 · v0.53.0 Terrain Tactics for authored terrain rules and bounded pathing.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
 - Stage victories now grant 20 JP to every roster member and recalculate job level atomically with gold, loot, and forging material.
