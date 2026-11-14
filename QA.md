@@ -62,8 +62,8 @@
 - The Battle route now refuses to invent a default encounter when no stage is prepared and instead directs the player back to Campaign.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 137 · v3.8.0 AI Turn Assist.
-- QA counts now match the latest 33-file, 116-test verification run.
+- Version label advanced to Milestone 138 · v3.8.0 Control Migration Coverage.
+- QA counts now match the latest 33-file, 117-test verification run.
 - Tactical control mode now has a tested manual/AI toggle contract as the foundation for the next combat UI pass.
 - AI control now has a tested nearest-living-enemy selector with deterministic id tie-breaking.
 - AI control now has a tested attack-or-advance planner that returns an action instead of stalling when a target is out of range.
@@ -71,10 +71,11 @@
 - Tactical battle briefing now reads and displays the authoritative saved control mode.
 - Settings now exposes a Manual guild control / AI guild control toggle backed by the same saved GameState field.
 - In AI mode, ending the turn selects the deterministic next guild actor and nearest living target using the shared AI planner, while preserving manual confirmation of the action.
+- Save migration coverage now proves both the manual default for older saves and preservation of an explicitly saved AI mode.
 - Package metadata now reports version `3.8.0`, matching the visible build release label.
 - The project now exposes one `pnpm qa` command that runs the complete test suite and production build sequentially.
 - Battle-entry readiness is now a tested data-layer contract shared by the tactical screen, preventing an unprepared route from entering combat.
-- Automated QA at the current release: `pnpm exec vitest run` — 33 test files, 116 tests passing; `pnpm run build` — production build completed.
+- Automated QA at the current release: `pnpm exec vitest run` — 33 test files, 117 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
 - Stage victories now grant 20 JP to every roster member and recalculate job level atomically with gold, loot, and forging material.
@@ -100,9 +101,9 @@
 - Stage manifests now expose a shared deduplicated obstacle-plus-water blocker set, covered across the data layer and tactical renderer.
 - The authored Steady Hands passive now adds one outgoing damage, using the saved roster passive collection.
 - The authored Opportunist reaction now deals one counter damage when its bearer is struck.
-- Reaction counter damage is now centralized in the combat-effects data layer and directly tested.
-- Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tes
-ts cover their signature enemies.
+- Reaction counter damage is now centralized in the combat-effects data layer a
+nd directly tested.
+- Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
 - World travel now advances by the displayed route duration and recalculates the saved season consistently.
 - First-time stage claims now advance the calendar exactly once alongside rewards and return flow; duplicate claims do not advance it.
@@ -128,7 +129,7 @@ ts cover their signature enemies.
 
 ## Commands
 
-`pnpm test` — 33 test files, 116 tests passing.
+`pnpm test` — 33 test files, 117 tests passing.
 
 - The published QA ledger now reports the current 31-file, 112-test verification counts instead of superseded historical totals.
 
