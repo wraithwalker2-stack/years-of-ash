@@ -27,10 +27,11 @@
 - Battlefield benchmark metadata records every authored stage as an 8 × 6, 48-tile modular field and compares it honestly with a 12 × 10, 120-tile FFT-style reference footprint (0.40 tile ratio); this is a current-slice measurement, not a claim of parity.
 - Campaign stage cards now show each battlefield’s measured footprint and FFT reference ratio before deployment.
 - Tactical benchmark data now produces a reusable stage briefing combining objective, dimensions, modular scene status, and FFT comparison.
+- Tactical battle now exposes a tested opening-briefing contract for deployment logs, keeping combat entry aligned with the measured stage data.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 92 · v0.92.0 Tactical Briefings.
-- Automated QA: `pnpm test -- --run` — 27 test files, 94 tests passing; `pnpm run build` — production build completed.
+- Version label advanced to Milestone 93 · v0.93.0 Battle Briefing Contract.
+- Automated QA: `pnpm exec vitest run` — 27 test files, 92 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
 - Stage victories now grant 20 JP to every roster member and recalculate job level atomically with gold, loot, and forging material.
