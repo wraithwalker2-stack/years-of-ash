@@ -2,6 +2,7 @@
 
 ## Verified locally
 
+- Milestone 173: Quickstep now performs a real obstacle-aware one-tile reposition toward the selected or nearest enemy, consumes the action, and applies authored hazard damage.
 - Milestone 172: Guard Stance is now a visible tactical action that reduces the next incoming hit by 2, consumes the unit action, breaks when struck, and has direct combat-effect coverage.
 - Milestone 143: AI end-turn selection now uses the shared attack/advance planner and records the proposed action before manual confirmation.
 - Milestone 144: actor, target, and attack/advance choice now come from one tested AI turn-plan helper.
@@ -94,7 +95,7 @@
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
 - Version label advanced to Milestone 171 · v3.38.0 Current Save Copy.
-- QA counts now match the latest 33-file, 121-test verification run.
+- QA counts now match the latest 33-file, 118-test verification run.
 - Tactical control mode now has a tested manual/AI toggle contract as the foundation for the next combat UI pass.
 - AI control now has a tested nearest-living-enemy selector with deterministic id tie-breaking.
 - AI control now has a tested attack-or-advance planner that returns an action instead of stalling when a target is out of range.
@@ -181,3 +182,4 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Current slice: 8 × 6 = 48 logical tiles, fixed 4:3 board ratio, CSS-rendered tile buttons, 3 px inter-tile gaps, four terrain classes, and explicit obstacle cells. Eight stage manifests are covered by automated tests.
 - Current modularity: stage identity, terrain presets, authored scene layers, encounter composition, movement, attack, AI turn, and reward persistence are separate data/state concerns.
 - FFT comparison target: preserve a readable isometric/tactical playfield with at least 48 logical tiles, at least 3 meaningful elevation/terrain states, and stage data that can swap encounters without rewriting the renderer. The current slice meets the tile-count and modular-data targets, but does not yet match FFT’s isometric art, sprite resolution, animation density, or multi-height map complexity.
+
