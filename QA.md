@@ -23,9 +23,10 @@
 - Reputation changes now retain faction, signed delta, source, and campaign day in the save-backed reputation log; older saves migrate to an empty log.
 - Campaign now surfaces the latest dated standing changes from that authoritative log.
 - The faction catalog now has packet-aligned profiles for every campaign faction, including seat, leader, summary, perk, and penalty metadata.
+- Campaign now renders those faction profiles as a political dossier alongside standing and history.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 88 · v0.88.0 Faction Profiles.
+- Version label advanced to Milestone 89 · v0.89.0 Political Dossier.
 - Automated QA: `pnpm test -- --run` — 26 test files, 93 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
