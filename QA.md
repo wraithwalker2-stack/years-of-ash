@@ -52,9 +52,10 @@
 - Deployment validation now rejects guild start cells blocked by water or obstacles.
 - Runtime deployment validation now reports authored obstacle overlap, keeping the combat entry guard aligned with manifest validation.
 - Runtime placement now refuses water and obstacle cells before confirmation, matching the manifest guard during manual deployment.
+- Deployment eligibility is now centralized in one data-layer rule shared by the tactical placement flow and deployment validation.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 117 · v2.7.0 Honest Deployment Preview.
+- Version label advanced to Milestone 118 · v2.8.0 Unified Deployment Rule.
 - Automated QA: `pnpm exec vitest run` — 28 test files, 94 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
@@ -101,9 +102,9 @@
 
  - Packet-authored music and SFX binaries are now copied into the static `public/audio` bundle; the build includes the referenced audio files for GitHub Pages playback.
 - Packet-authored Greenway, Mosslight, Ashen Observatory, and Hollow Sepulcher scene images now back the corresponding tactical boards instead of placeholder SVG layers.
-- Packet-authored Floodworks, Southgate, and Veilwake scenes now back the expanded tactical stages as well.
-- Tactical terrain tiles now use translucent overlays so authored stage scenes remain visible beneath the re
-adable logical grid.
+- Packet-authored Floodworks, Southgate, and Veilwake scenes now back the expanded tac
+tical stages as well.
+- Tactical terrain tiles now use translucent overlays so authored stage scenes remain visible beneath the readable logical grid.
 
  - Version label advanced to Milestone 85 · v0.85.0 Reputation Bounds for contract standing clamped to −100…+100 with tested bounds, off-hand, hands, legs, and two accessory item families with slot coverage tests, packet equipment slots including hands, legs, two accessories, and off-hand with migration merging, tested JP progression that preserves prior job levels while advancing the active job, enforced multi-job advanced-class requirements backed by per-job level history, safe migration, and job-change persistence; legacy saves retain parent-based fallback behavior; explicit multi-job advanced-class requirements with compatibility parent tags, complete base and first-evolution starter-skill catalog coverage, all nine packet first-evolution jobs at Job Level 3 with parent-job checks, effective cast range in the battle log, shared live objective progress in the tactical header, tested fallback handling of migrated unknown job IDs, centralized job unlock requirements, deterministic counter resolution only when the defender survives, explicit battle-log feedback when enemy attacks are blocked by cover, obstacle-aware enemy attacks using the shared LOS rule, deterministic enemy step ranking that prefers safer terrain when progress is tied, high-ground cast-range bonuses on long skills, consistent hazard damage across guild and enemy movement, water traversal through obstacle-aware pathing rules, terrain movement costs, corrected stage dimensions, reaction mitigation, counter damage, shared target classification, targeting-driven area actions, and separate skill range rules.
 
