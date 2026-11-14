@@ -94,6 +94,8 @@ Specialist skill-tree slice adds 18 authored active/reaction skills across the n
 
 Specialist active-skill damage bonuses now resolve through the tactical combat-effects layer, with direct coverage for Runic Slash, Crushing Palm, and Blast Mine.
 
+Specialist starter passives Iron Fists, Runic Edge, and Field Machinery now contribute authored outgoing power through the shared combat-effects layer, with direct tests.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
