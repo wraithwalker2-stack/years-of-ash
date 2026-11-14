@@ -106,7 +106,7 @@ Sacred Armor and Merciful Hands now add authored healing power to Lay on Hands a
 
 ## Commands
 
-`pnpm test` — 24 test files, 70 tests passing.
+`pnpm test` — 24 test files, 71 tests passing.
 
 `pnpm build` — passing.
 
