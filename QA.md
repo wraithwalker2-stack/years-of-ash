@@ -46,9 +46,10 @@
 - The stage catalog test now requires every campaign entry to have a valid manifest; missing stage data cannot be silently skipped.
 - Stage validation now cross-checks mapped music against the published local audio cue catalog.
 - Tactical capture and escort victory now matches the authoritative rule: reach the objective only after all enemies are cleared.
+- The live tactical screen now derives victory/defeat from the shared battle-outcome contract.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 111 · v2.1.0 Objective Reconciliation.
+- Version label advanced to Milestone 112 · v2.2.0 Live Battle Outcomes.
 - Automated QA: `pnpm exec vitest run` — 28 test files, 94 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
