@@ -34,9 +34,10 @@
 - Capture and escort manifests now require an in-bounds, non-blocked objective cell.
 - Reputation changes now use one bounded transition helper that always records signed delta, source, and campaign day.
 - Stage validation now accepts arbitrary imported manifest objects, with malformed-data coverage in tests.
+- Stage validation now requires a music reference and a supported eliminate/capture/escort victory mode.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 99 · v0.99.0 Extensible Stage Validation.
+- Version label advanced to Milestone 100 · v1.0.0 Stage Content Validation.
 - Automated QA: `pnpm exec vitest run` — 28 test files, 94 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
