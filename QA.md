@@ -24,6 +24,7 @@
 - Milestone 162: AI attack-versus-advance resolution is centralized and tested against line of sight.
 - Milestone 163: centralized AI resolution now returns no action for downed actors or targets.
 - Milestone 164: centralized AI resolution now has regression coverage for configurable attack ranges.
+- Milestone 165: AI tactical logs now prefer readable unit names over internal IDs.
 - Milestone 142: tactical combat now shows the persisted Manual/AI control mode beside an in-place switch, while retaining the tested `M` shortcut.
 - Vite + TypeScript + React static build with relative GitHub Pages asset paths.
 - Unified, namespaced `GameState` with save/reset, theme, audio toggle, founder setup, roster, inventory, contracts, reputation, equipment, campaign completion, gold, JP, and job-level progression.
