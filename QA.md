@@ -78,6 +78,8 @@ Job-change eligibility and starter-kit behavior now have direct data-layer regre
 
 Version label advanced to Milestone 55 · v0.55.0 Job Progression for the gated job-change ledger flow.
 
+Tactical terrain tiles now use translucent overlays so authored stage scenes remain visible beneath the readable logical grid.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
