@@ -14,6 +14,7 @@
 - Milestone 152: AI control now executes a deterministic advance plan before the enemy phase; manual control remains unchanged.
 - Milestone 153: AI control now resolves a deterministic basic attack when its planned target is in range and visible.
 - Milestone 154: AI attacks now award the same deterministic 25g per downed enemy as manual attacks.
+- Milestone 155: AI now advances toward an in-range target when line of sight is blocked, instead of silently stalling.
 - Milestone 142: tactical combat now shows the persisted Manual/AI control mode beside an in-place switch, while retaining the tested `M` shortcut.
 - Vite + TypeScript + React static build with relative GitHub Pages asset paths.
 - Unified, namespaced `GameState` with save/reset, theme, audio toggle, founder setup, roster, inventory, contracts, reputation, equipment, campaign completion, gold, JP, and job-level progression.
