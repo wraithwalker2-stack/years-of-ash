@@ -9,6 +9,7 @@
 - Milestone 147: AI advance planning now rejects authored obstacle cells, with deterministic fallback coverage.
 - Milestone 148: AI advance planning now enforces authored battlefield bounds, with edge-case regression coverage.
 - Milestone 149: AI advance planning prefers safe terrain over hazards when progress is tied, with deterministic coverage.
+- Milestone 150: AI battle-log planning now uses a shared tested label for attack and advance destinations.
 - Milestone 142: tactical combat now shows the persisted Manual/AI control mode beside an in-place switch, while retaining the tested `M` shortcut.
 - Vite + TypeScript + React static build with relative GitHub Pages asset paths.
 - Unified, namespaced `GameState` with save/reset, theme, audio toggle, founder setup, roster, inventory, contracts, reputation, equipment, campaign completion, gold, JP, and job-level progression.
