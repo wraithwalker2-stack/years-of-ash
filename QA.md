@@ -102,11 +102,11 @@ Specialist healing now includes Lay on Hands at 6 HP, with the battle log naming
 
 Specialist unlocks now enforce both Job Level 4 and the authored parent job family, with invalid-parent regression coverage.
 
-Sacred Armor and Merciful Hands now add authored healing power to Lay on Hands and Reagent Burst through the shared healing resolver, with direct coverage.\n\nMilestone 56 specialist combat now includes skill-specific actions, Blast Mine area targeting, Summon Spirit Wolf allied summons, Soul Leech defeat healing, Withering Hex weakening, explicit reaction counterattack logs, and wounded-target tie breaking for enemy AI.\n\nMerciful Hands has direct healing regression coverage.
+Sacred Armor and Merciful Hands now add authored healing power to Lay on Hands and Reagent Burst through the shared healing resolver, with direct coverage.\n\nMilestone 56 specialist combat now includes skill-specific actions, Blast Mine area targeting, Summon Spirit Wolf allied summons, Soul Leech defeat healing, Withering Hex weakening, explicit reaction counterattack logs, wounded-target tie breaking for enemy AI, and a high-ground attack advantage.\n\nMerciful Hands has direct healing regression coverage.
 
 ## Commands
 
-`pnpm test` — 24 test files, 73 tests passing.
+`pnpm test` — 24 test files, 74 tests passing.
 
 `pnpm build` — passing.
 
