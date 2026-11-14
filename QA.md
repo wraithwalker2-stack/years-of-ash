@@ -35,6 +35,7 @@
 - Battle log now exposes the measurable 8 × 6 / 48-tile battlefield benchmark during deployment.
 - Authored signature enemies now have distinct deterministic base damage values, covered by combat regression tests.
 - Retainer assignment state now rejects unknown characters and unsupported roles before persisting.
+- Save migration now removes invalid legacy retainer assignments while preserving valid roles.
 - Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
 - World travel now advances by the displayed route duration and recalculates the saved season consistently.
@@ -54,7 +55,7 @@
 
 ## Commands
 
-`pnpm test` — 23 test files, 46 tests passing.
+`pnpm test` — 23 test files, 50 tests passing.
 
 `pnpm build` — passing.
 
