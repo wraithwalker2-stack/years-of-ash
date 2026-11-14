@@ -19,6 +19,7 @@
 - Milestone 157: centralized AI attack eligibility now rejects stale plans involving downed actors or targets.
 - Milestone 158: centralized AI attack eligibility now covers the exact range-2 boundary and rejects range-3 targets.
 - Milestone 159: AI battle logs now accurately distinguish automatic execution from plans with no legal automatic action.
+- Milestone 160: automatic AI attack logs now explicitly report when their target is downed.
 - Milestone 142: tactical combat now shows the persisted Manual/AI control mode beside an in-place switch, while retaining the tested `M` shortcut.
 - Vite + TypeScript + React static build with relative GitHub Pages asset paths.
 - Unified, namespaced `GameState` with save/reset, theme, audio toggle, founder setup, roster, inventory, contracts, reputation, equipment, campaign completion, gold, JP, and job-level progression.
