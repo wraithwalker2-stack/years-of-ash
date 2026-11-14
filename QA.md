@@ -86,6 +86,8 @@ Legacy stage music identifiers are normalized at the tactical data boundary to t
 
 Job changes now atomically return newly incompatible equipped gear to inventory; equipment ownership tests cover the transition.
 
+Job growth is now stat-bearing: contract and stage JP rewards use one helper that raises authored growth stats at each job-level threshold, covered by direct tests.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
