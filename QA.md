@@ -102,6 +102,8 @@ Specialist healing now includes Lay on Hands at 6 HP, with the battle log naming
 
 Specialist unlocks now enforce both Job Level 4 and the authored parent job family, with invalid-parent regression coverage.
 
+Sacred Armor and Merciful Hands now add authored healing power to Lay on Hands and Reagent Burst through the shared healing resolver, with direct coverage.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
