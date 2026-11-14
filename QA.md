@@ -17,6 +17,7 @@
 - Milestone 155: AI now advances toward an in-range target when line of sight is blocked, instead of silently stalling.
 - Milestone 156: AI attack eligibility is centralized and tested for range, living targets, and line of sight.
 - Milestone 157: centralized AI attack eligibility now rejects stale plans involving downed actors or targets.
+- Milestone 158: centralized AI attack eligibility now covers the exact range-2 boundary and rejects range-3 targets.
 - Milestone 142: tactical combat now shows the persisted Manual/AI control mode beside an in-place switch, while retaining the tested `M` shortcut.
 - Vite + TypeScript + React static build with relative GitHub Pages asset paths.
 - Unified, namespaced `GameState` with save/reset, theme, audio toggle, founder setup, roster, inventory, contracts, reputation, equipment, campaign completion, gold, JP, and job-level progression.
