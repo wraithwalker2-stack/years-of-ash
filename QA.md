@@ -70,6 +70,8 @@
 
 Packet-authored Greenway, Mosslight, Ashen Observatory, and Hollow Sepulcher scene images now back the corresponding tactical boards instead of placeholder SVG layers.
 
+Packet-authored Floodworks, Southgate, and Veilwake scenes now back the expanded tactical stages as well.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
