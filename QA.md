@@ -40,9 +40,10 @@
 - Equipment now has a centralized nine-slot schema normalizer and duplicate-loadout validator.
 - Save migration now applies the nine-slot equipment normalizer to every restored character.
 - Save migration coverage now asserts all nine equipment keys for an older character record.
+- Stage music references now pass through a deterministic local published-track mapper with explicit legacy-name handling.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 105 · v1.5.0 Migration Coverage.
+- Version label advanced to Milestone 106 · v1.6.0 Audio Mapping.
 - Automated QA: `pnpm exec vitest run` — 28 test files, 94 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
