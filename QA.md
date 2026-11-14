@@ -46,6 +46,7 @@
 - Stage manifests now expose a shared deduplicated obstacle-plus-water blocker set, covered across the data layer and tactical renderer.
 - The authored Steady Hands passive now adds one outgoing damage, using the saved roster passive collection.
 - The authored Opportunist reaction now deals one counter damage when its bearer is struck.
+- Reaction counter damage is now centralized in the combat-effects data layer and directly tested.
 - Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
 - World travel now advances by the displayed route duration and recalculates the saved season consistently.
@@ -65,7 +66,7 @@
 
 ## Commands
 
-`pnpm test` — 23 test files, 56 tests passing.
+`pnpm test` — 23 test files, 57 tests passing.
 
 `pnpm build` — passing.
 
