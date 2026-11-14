@@ -20,9 +20,11 @@
 - Active and reaction skill learning is JP-backed and surfaced in the character ledger.
 - Stage manifests carry music references for a later audio-manager pass; no binary audio is claimed as published.
 - Faction standing now has explicit Hostile/Neutral/Trusted/Allied tiers with visible consequences on the job board.
+- Reputation changes now retain faction, signed delta, source, and campaign day in the save-backed reputation log; older saves migrate to an empty log.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 54 · v0.54.0 Enemy Phases for authored terrain rules and bounded pathing.
+- Version label advanced to Milestone 86 · v0.86.0 Reputation Log.
+- Automated QA: `pnpm test -- --run` — 25 test files, 92 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
 - Stage victories now grant 20 JP to every roster member and recalculate job level atomically with gold, loot, and forging material.
@@ -30,7 +32,9 @@
 - Tactical units now inherit all five authoritative saved roster identities; this is covered by an encounter regression test.
 - Tactical units now also inherit saved equipment, so Ledger weapon and armor changes feed combat calculations.
 - Tactical stages now route music, impact, healing, and victory cues through the audio manager with autoplay-safe handling.
-- Enemy turns now prioritize the nearest living guild target deterministically, with regression coverage for authored multi-enemy rosters. Enemy phases resolve every living enemy in order; each hostile attacks in range or advances toward its target, and the battle log summarizes the phase.
+- Enemy turns now prioritize the nearest living guild target deterministically, with regression coverage for authored multi-enemy rosters.
+- Enemy phases now resolve every living enemy in deterministic nearest-target order; each hostile attacks when in range or advances toward its target, with the battle log summarizing the full phase.
+- Battle header now surfaces the full living-enemy action queue rather than hiding the additional hostile intents behind the first target.
 - Battle UI now surfaces the prioritized enemy intent before the player ends the turn.
 - Battle log now exposes the measurable 8 × 6 / 48-tile battlefield benchmark during deployment.
 - Authored signature enemies now have distinct deterministic base damage values, covered by combat regression tests.
@@ -64,45 +68,12 @@
 - Location unlocks are now derived from completed contracts and stages instead of static presentation flags.
 - Calendar holiday windows are deterministic and tested for First Thaw, Sunmarket Jubilee, Harvest Remembrance, and Veilwake; the active holiday now appears in the app header.
 
-- Battle header now surfaces the full living-enemy action queue rather than hiding the additional hostile intents behind the first target.
+ - Packet-authored music and SFX binaries are now copied into the static `public/audio` bundle; the build includes the referenced audio files for GitHub Pages playback.
+- Packet-authored Greenway, Mosslight, Ashen Observatory, and Hollow Sepulcher scene images now back the corresponding tactical boards instead of placeholder SVG layers.
+- Packet-authored Floodworks, Southgate, and Veilwake scenes now back the expanded tactical stages as well.
+- Tactical terrain tiles now use translucent overlays so authored stage scenes remain visible beneath the readable logical grid.
 
-- Enemy ordering and defeated-unit filtering now use one shared `enemyQueue` data helper with direct regression coverage.
-
-Packet-authored Greenway, Mosslight, Ashen Observatory, and Hollow Sepulcher scene images now back the corresponding tactical boards instead of placeholder SVG layers.
-
-Packet-authored Floodworks, Southgate, and Veilwake scenes now back the expanded tactical stages as well.
-
-Character Ledger now exposes gated job changes at Job Level 2; switching applies the new job starter skill/passive and clears incompatible reactions through one save-backed action.
-
-Job-change eligibility and starter-kit behavior now have direct data-layer regression tests; the suite is 24 files / 61 tests passing.
-
-Version label advanced to Milestone 56 · v0.56.0 Specialist Combat for the gated job-change ledger flow.
-
-Tactical terrain tiles now use translucent overlays so authored stage scenes remain visible beneath the readable logical grid.
-
-Tactical movement now triggers the packet footstep cue through the shared audio manager.
-
-Legacy stage music identifiers are normalized at the tactical data boundary to the two packet tracks actually hosted in `public/audio`, with direct coverage.
-
-Job changes now atomically return newly incompatible equipped gear to inventory; equipment ownership tests cover the transition.
-
-Job growth is now stat-bearing: contract and stage JP rewards use one helper that raises authored growth stats at each job-level threshold, covered by direct tests.
-
-Advanced specialist catalog slice: Sentinel, Runeblade, Ninja, Summoner, Assassin, Monk, Paladin, Warlock, and Engineer now have packet-aligned parent metadata, Job Level 4 gates, growth profiles, and starter kits. Parent-job equipment compatibility is tested. Full specialist skill trees and multi-job prerequisites remain open.
-
-Specialist skill-tree slice adds 18 authored active/reaction skills across the nine advanced jobs; the existing JP shop discovers them by job identity, covered by the 24-file / 66-test suite.
-
-Specialist active-skill damage bonuses now resolve through the tactical combat-effects layer, with direct coverage for Runic Slash, Crushing Palm, and Blast Mine.
-
-Specialist starter passives Iron Fists, Runic Edge, and Field Machinery now contribute authored outgoing power through the shared combat-effects layer, with direct tests.
-
-Specialist reactions now contribute authored counter power through the shared reaction helper, with direct coverage for Iron Rebuke, Arcane Reprisal, and Opportunist.
-
-Specialist healing now includes Lay on Hands at 6 HP, with the battle log naming the selected healing skill and direct combat-effects coverage.
-
-Specialist unlocks now enforce both Job Level 4 and the authored parent job family, with invalid-parent regression coverage.
-
-Sacred Armor and Merciful Hands now add authored healing power to Lay on Hands and Reagent Burst through the shared healing resolver, with direct coverage.\n\nMilestone 56 specialist combat now includes skill-specific actions, Blast Mine area targeting, Summon Spirit Wolf allied summons, Soul Leech defeat healing, Withering Hex weakening, explicit reaction counterattack logs, wounded-target tie breaking for enemy AI, and a high-ground attack advantage. A shared skill-targeting contract now classifies area, ally, self, enemy, and reaction actions, and area resolution consumes that classification.\n\nMerciful Hands has direct healing regression coverage.
+ - Version label advanced to Milestone 85 · v0.85.0 Reputation Bounds for contract standing clamped to −100…+100 with tested bounds, off-hand, hands, legs, and two accessory item families with slot coverage tests, packet equipment slots including hands, legs, two accessories, and off-hand with migration merging, tested JP progression that preserves prior job levels while advancing the active job, enforced multi-job advanced-class requirements backed by per-job level history, safe migration, and job-change persistence; legacy saves retain parent-based fallback behavior; explicit multi-job advanced-class requirements with compatibility parent tags, complete base and first-evolution starter-skill catalog coverage, all nine packet first-evolution jobs at Job Level 3 with parent-job checks, effective cast range in the battle log, shared live objective progress in the tactical header, tested fallback handling of migrated unknown job IDs, centralized job unlock requirements, deterministic counter resolution only when the defender survives, explicit battle-log feedback when enemy attacks are blocked by cover, obstacle-aware enemy attacks using the shared LOS rule, deterministic enemy step ranking that prefers safer terrain when progress is tied, high-ground cast-range bonuses on long skills, consistent hazard damage across guild and enemy movement, water traversal through obstacle-aware pathing rules, terrain movement costs, corrected stage dimensions, reaction mitigation, counter damage, shared target classification, targeting-driven area actions, and separate skill range rules.
 
 ## Commands
 
