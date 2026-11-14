@@ -2,6 +2,7 @@
 
 ## Verified locally
 
+- Milestone 142: tactical combat now shows the persisted Manual/AI control mode beside an in-place switch, while retaining the tested `M` shortcut.
 - Vite + TypeScript + React static build with relative GitHub Pages asset paths.
 - Unified, namespaced `GameState` with save/reset, theme, audio toggle, founder setup, roster, inventory, contracts, reputation, equipment, campaign completion, gold, JP, and job-level progression.
 - Equipment restrictions enforced by allowed job data.
@@ -101,8 +102,7 @@
 - Enemy pathing now clamps proposed steps to the authored 8 × 6 board bounds.
 - Shared player movement validation now rejects off-board coordinates before occupancy and distance checks.
 - Enemy pathing now treats authored water cells as blocked while preserving their terrain rendering.
-- Stage manifests now expose a shared deduplicated obstacle-plus-water
- blocker set, covered across the data layer and tactical renderer.
+- Stage manifests now expose a shared deduplicated obstacle-plus-water blocker set, covered across the data layer and tactical renderer.
 - The authored Steady Hands passive now adds one outgoing damage, using the saved roster passive collection.
 - The authored Opportunist reaction now deals one counter damage when its bearer is struck.
 - Reaction counter damage is now centralized in the combat-effects data layer and directly tested.
