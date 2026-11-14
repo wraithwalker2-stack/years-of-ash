@@ -1,0 +1,69 @@
+# Years of Ash — Current QA
+
+## Verified locally
+
+- Vite + TypeScript + React static build with relative GitHub Pages asset paths.
+- Unified, namespaced `GameState` with save/reset, theme, audio toggle, founder setup, roster, inventory, contracts, reputation, equipment, campaign completion, gold, JP, and job-level progression.
+- Equipment restrictions enforced by allowed job data.
+- Job Board rewards persist gold, JP, completed contracts, and faction reputation.
+- Contract JP advances every roster member’s job level at 100-JP thresholds, capped at job level 10.
+- Market purchases persist gold and inventory; older saves receive starter supplies during migration.
+- Tactical slice supports deterministic movement, terrain restrictions, attacks, enemy turns, victory, and persistent battle loot claims.
+- Campaign stages now consume eight explicit 8 × 6 manifests with deployment cells, water, high-ground, hazards, and elimination/capture/escort objectives.
+- Tactical slice supports stage-specific enemy rosters, nearest-target enemy AI, explicit player target selection, replay, and selected-target feedback.
+- Tactical slice supports manual five-member deployment, capture objectives, obstacle-aware movement and line of sight, stage-specific loot, persistent result summaries, and replay reset.
+- Equipment ownership is save-backed: equipping consumes one owned copy, swapping returns replaced non-starter gear, and stage claims cannot duplicate rewards.
+- Claimed stage rewards now clear the active stage and return the authoritative route to the Guild Hall, preventing stale battle sessions after victory.
+- Save migration is directly tested for missing stage and inventory fields.
+- Campaign entries connect to the tactical route and reflect cleared-stage state.
+- Calendar state is save-backed, advances from completed contracts, and is surfaced in the Guild Hall header.
+- Active and reaction skill learning is JP-backed and surfaced in the character ledger.
+- Stage manifests carry music references for a later audio-manager pass; no binary audio is claimed as published.
+- Faction standing now has explicit Hostile/Neutral/Trusted/Allied tiers with visible consequences on the job board.
+- Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
+- Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
+- Version label advanced to Milestone 50 · v0.50.0 for the authored visual pass.
+- Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
+- Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
+- Stage victories now grant 20 JP to every roster member and recalculate job level atomically with gold, loot, and forging material.
+- Campaign preparation now uses the same location unlock gates as the World Map and labels inaccessible stages instead of allowing bypass.
+- Tactical units now inherit all five authoritative saved roster identities; this is covered by an encounter regression test.
+- Tactical units now also inherit saved equipment, so Ledger weapon and armor changes feed combat calculations.
+- Tactical stages now route music, impact, healing, and victory cues through the audio manager with autoplay-safe handling.
+- Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
+- Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
+- World travel now advances by the displayed route duration and recalculates the saved season consistently.
+- First-time stage claims now advance the calendar exactly once alongside rewards and return flow; duplicate claims do not advance it.
+- Campaign political powers now display live saved reputation standings, matching the Job Board’s faction consequences.
+- Forge now supports salvaging owned crafted equipment into Common material through the same save-backed inventory transaction.
+- Retainers are now save-backed role assignments for Apothecary, Scavenger, and Miner, with roster-driven selectors in Guild Services.
+- Retainer assignments now have deterministic effects: Miner on travel, Apothecary on contracts, and Scavenger on stage claims.
+- Save migration now normalizes missing character skills, passives, reactions, and equipment collections for older saves.
+- Market stock now rotates deterministically for Sunmarket Jubilee and Veilwake instead of remaining a fixed list.
+- Audio references now run through a single cue manager with music/SFX buses, volume metadata, and autoplay-safe failure handling.
+- Forge now exposes save-backed Common material recipes with gold/material gating and inventory results.
+- Stage completion now grants one Common forging material exactly once, closing the reward-to-crafting loop.
+- World travel now persists the current location, advances the calendar, and only offers direct travel along unlocked roads.
+- Location unlocks are now derived from completed contracts and stages instead of static presentation flags.
+- Calendar holiday windows are deterministic and tested for First Thaw, Sunmarket Jubilee, Harvest Remembrance, and Veilwake; the active holiday now appears in the app header.
+
+## Commands
+
+`pnpm test` — 23 test files, 45 tests passing.
+
+`pnpm build` — passing.
+
+## Public build
+
+The static build is published at https://wraithwalker2-stack.github.io/years-of-ash/; the repository index points to the latest verified hashed assets. A fresh public browser loaded the shell, version label, navigation, Guild Hall, five-member roster, calendar, and readable layout on 2026-11-14.
+
+## Remaining scope
+
+The restart packet’s later milestones still require richer enemy AI, hazards/elevation depth, complete class/skill/equipment progression, art archive integration, binary audio hosting, and explicit FFT-scale battlefield benchmark evidence. Those are not being claimed complete.
+
+## Tactical benchmark
+
+- Current slice: 8 × 6 = 48 logical tiles, fixed 4:3 board ratio, CSS-rendered tile buttons, 3 px inter-tile gaps, four terrain classes, and explicit obstacle cells. Eight stage manifests are covered by automated tests.
+- Current modularity: stage identity, terrain presets, authored scene layers, encounter composition, movement, attack, AI turn, and reward persistence are separate data/state concerns.
+- FFT comparison target: preserve a readable isometric/tactical playfield with at least 48 logical tiles, at least 3 meaningful elevation/terrain states, and stage data that can swap encounters without rewriting the renderer. The current slice meets the tile-count and modular-data targets, but does not yet match FFT’s isometric art, sprite resolution, animation density, or multi-height map complexity.
+
