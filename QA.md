@@ -2,6 +2,7 @@
 
 ## Verified locally
 
+- Milestone 143: AI end-turn selection now uses the shared attack/advance planner and records the proposed action before manual confirmation.
 - Milestone 142: tactical combat now shows the persisted Manual/AI control mode beside an in-place switch, while retaining the tested `M` shortcut.
 - Vite + TypeScript + React static build with relative GitHub Pages asset paths.
 - Unified, namespaced `GameState` with save/reset, theme, audio toggle, founder setup, roster, inventory, contracts, reputation, equipment, campaign completion, gold, JP, and job-level progression.
