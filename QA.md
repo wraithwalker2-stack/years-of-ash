@@ -92,7 +92,7 @@
 - The Battle route now refuses to invent a default encounter when no stage is prepared and instead directs the player back to Campaign.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 141 · v3.8.0 Safe Control Shortcut.
+- Version label advanced to Milestone 171 · v3.38.0 Current Save Copy.
 - QA counts now match the latest 33-file, 118-test verification run.
 - Tactical control mode now has a tested manual/AI toggle contract as the foundation for the next combat UI pass.
 - AI control now has a tested nearest-living-enemy selector with deterministic id tie-breaking.
@@ -163,7 +163,7 @@
 
 `pnpm test` — 33 test files, 118 tests passing.
 
-- The published QA ledger now reports the current 31-file, 112-test verification counts instead of superseded historical totals.
+- The published QA ledger reports the current 33-file, 120-test verification counts.
 
 `pnpm build` — passing.
 
