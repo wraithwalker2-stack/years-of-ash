@@ -90,6 +90,8 @@ Job growth is now stat-bearing: contract and stage JP rewards use one helper tha
 
 Advanced specialist catalog slice: Sentinel, Runeblade, Ninja, Summoner, Assassin, Monk, Paladin, Warlock, and Engineer now have packet-aligned parent metadata, Job Level 4 gates, growth profiles, and starter kits. Parent-job equipment compatibility is tested. Full specialist skill trees and multi-job prerequisites remain open.
 
+Specialist skill-tree slice adds 18 authored active/reaction skills across the nine advanced jobs; the existing JP shop discovers them by job identity, covered by the 24-file / 66-test suite.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
