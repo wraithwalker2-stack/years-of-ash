@@ -62,7 +62,8 @@
 - The Battle route now refuses to invent a default encounter when no stage is prepared and instead directs the player back to Campaign.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 126 · v3.6.0 Current QA Ledger.
+- Version label advanced to Milestone 127 · v3.7.0 Tested Battle Entry.
+- Battle-entry readiness is now a tested data-layer contract shared by the tactical screen, preventing an unprepared route from entering combat.
 - Automated QA at the current release: `pnpm exec vitest run` — 31 test files, 112 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
@@ -99,9 +100,9 @@
 - Retainers are now save-backed role assignments for Apothecary, Scavenger, and Miner, with roster-driven selectors in Guild Services.
 - Retainer assignments now have deterministic effects: Miner on travel, Apothecary on contracts, and Scavenger on stage claims.
 - Save migration now normalizes missing character skills, passives, reactions, and equipment collections for older saves.
-- Market stock now rotates deterministically for Sunmarket Jubilee and Veilwake instead of remaining a fixed list.
-- Audio references now run through a single cue manager with music/SFX buses, volume metadata, and autoplay-safe failure handli
-ng.
+- Market stock now rotates deterministically for Sunmarket Jubilee and Veilwake instead of rema
+ining a fixed list.
+- Audio references now run through a single cue manager with music/SFX buses, volume metadata, and autoplay-safe failure handling.
 - Forge now exposes save-backed Common material recipes with gold/material gating and inventory results.
 - Stage completion now grants one Common forging material exactly once, closing the reward-to-crafting loop.
 - World travel now persists the current location, advances the calendar, and only offers direct travel along unlocked roads.
