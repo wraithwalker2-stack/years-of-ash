@@ -66,6 +66,8 @@
 
 - Battle header now surfaces the full living-enemy action queue rather than hiding the additional hostile intents behind the first target.
 
+- Enemy ordering and defeated-unit filtering now use one shared `enemyQueue` data helper with direct regression coverage.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
