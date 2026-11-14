@@ -59,9 +59,10 @@
 - Published music mapping now explicitly covers every authored stage-family reference and documents the packet’s two-track fallback without inventing missing audio.
 - Tactical roster placement is now regression-tested against every authored campaign manifest, not only the opening stage.
 - The unused duplicate tactical combat component has been removed; `TacticalBattleScreen` is now the sole combat route, with `TacticalBattle.tsx` limited to shared encounter and terrain helpers.
+- The Battle route now refuses to invent a default encounter when no stage is prepared and instead directs the player back to Campaign.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 124 · v3.4.0 Single Combat Engine.
+- Version label advanced to Milestone 125 · v3.5.0 Explicit Battle Entry.
 - Automated QA: `pnpm exec vitest run` — 28 test files, 94 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
@@ -100,9 +101,9 @@
 - Save migration now normalizes missing character skills, passives, reactions, and equipment collections for older saves.
 - Market stock now rotates deterministically for Sunmarket Jubilee and Veilwake instead of remaining a fixed list.
 - Audio references now run through a single cue manager with music/SFX buses, volume metadata, and autoplay-safe failure handling.
-- Forge now exposes save-backed Common material recipes with gold/material gating and inventory results.
-- Stage completion now grants one Common forging
- material exactly once, closing the reward-to-crafting loop.
+- Forge now expo
+ses save-backed Common material recipes with gold/material gating and inventory results.
+- Stage completion now grants one Common forging material exactly once, closing the reward-to-crafting loop.
 - World travel now persists the current location, advances the calendar, and only offers direct travel along unlocked roads.
 - Location unlocks are now derived from completed contracts and stages instead of static presentation flags.
 - Calendar holiday windows are deterministic and tested for First Thaw, Sunmarket Jubilee, Harvest Remembrance, and Veilwake; the active holiday now appears in the app header.
