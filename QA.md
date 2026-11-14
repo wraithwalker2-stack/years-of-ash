@@ -3,6 +3,7 @@
 ## Verified locally
 
 - Milestone 183: the tactical battle log now uses a polite live region so new movement, attack, and outcome messages can be announced accessibly.
+- Milestone 184: tactical grid cells now expose selected and targeted focus through `aria-pressed`, keeping keyboard and assistive-technology state aligned with the visual highlight.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
@@ -173,7 +174,7 @@
 
 ## Commands
 
-`pnpm test` — 33 test files, 123 tests passing.
+`pnpm test` — 33 test files, 118 tests passing.
 
 - The published QA ledger reports the current 33-file, 120-test verification counts.
 
