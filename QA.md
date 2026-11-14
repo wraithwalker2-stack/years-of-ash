@@ -22,7 +22,7 @@
 - Faction standing now has explicit Hostile/Neutral/Trusted/Allied tiers with visible consequences on the job board.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 53 · v0.53.0 Terrain Tactics for authored terrain rules and bounded pathing.
+- Version label advanced to Milestone 54 · v0.54.0 Enemy Phases for authored terrain rules and bounded pathing.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
 - Stage victories now grant 20 JP to every roster member and recalculate job level atomically with gold, loot, and forging material.
@@ -30,7 +30,7 @@
 - Tactical units now inherit all five authoritative saved roster identities; this is covered by an encounter regression test.
 - Tactical units now also inherit saved equipment, so Ledger weapon and armor changes feed combat calculations.
 - Tactical stages now route music, impact, healing, and victory cues through the audio manager with autoplay-safe handling.
-- Enemy turns now prioritize the nearest living guild target deterministically, with regression coverage for authored multi-enemy rosters.
+- Enemy turns now prioritize the nearest living guild target deterministically, with regression coverage for authored multi-enemy rosters. Enemy phases resolve every living enemy in order; each hostile attacks in range or advances toward its target, and the battle log summarizes the phase.
 - Battle UI now surfaces the prioritized enemy intent before the player ends the turn.
 - Battle log now exposes the measurable 8 × 6 / 48-tile battlefield benchmark during deployment.
 - Authored signature enemies now have distinct deterministic base damage values, covered by combat regression tests.
