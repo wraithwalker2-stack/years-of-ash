@@ -6,6 +6,7 @@
 - Milestone 144: actor, target, and attack/advance choice now come from one tested AI turn-plan helper.
 - Milestone 145: AI advance planning now has a deterministic unoccupied step helper with tie-breaking coverage.
 - Milestone 146: tactical AI advance previews now include the chosen destination cell from the shared step helper.
+- Milestone 147: AI advance planning now rejects authored obstacle cells, with deterministic fallback coverage.
 - Milestone 142: tactical combat now shows the persisted Manual/AI control mode beside an in-place switch, while retaining the tested `M` shortcut.
 - Vite + TypeScript + React static build with relative GitHub Pages asset paths.
 - Unified, namespaced `GameState` with save/reset, theme, audio toggle, founder setup, roster, inventory, contracts, reputation, equipment, campaign completion, gold, JP, and job-level progression.
