@@ -2,6 +2,7 @@
 
 ## Verified locally
 
+- Milestone 176: AI attack planning now uses the shared line-of-sight rule, so covered targets produce an advance plan instead of an impossible attack.
 - Milestone 175: Field Tonic is classified as a self-targeting skill in the shared targeting data, matching its combat execution and log semantics.
 - Milestone 174: Field Tonic now resolves as a usable self-heal for its starter Alchemist skill, restoring 3 HP with deterministic coverage.
 - Milestone 173: Quickstep now performs a real obstacle-aware one-tile reposition toward the selected or nearest enemy, consumes the action, and applies authored hazard damage.
