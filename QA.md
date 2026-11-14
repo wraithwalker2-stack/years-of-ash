@@ -2,6 +2,7 @@
 
 ## Verified locally
 
+- Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
 - Milestone 179: tactical boards now mark legal movement destinations from the shared reachable-cell calculation while a guild unit is active.
