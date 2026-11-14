@@ -43,6 +43,7 @@
 - Enemy pathing now clamps proposed steps to the authored 8 × 6 board bounds.
 - Shared player movement validation now rejects off-board coordinates before occupancy and distance checks.
 - Enemy pathing now treats authored water cells as blocked while preserving their terrain rendering.
+- Stage manifests now expose a shared deduplicated obstacle-plus-water blocker set, covered across the data layer and tactical renderer.
 - Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
 - World travel now advances by the displayed route duration and recalculates the saved season consistently.
@@ -62,7 +63,7 @@
 
 ## Commands
 
-`pnpm test` — 23 test files, 54 tests passing.
+`pnpm test` — 23 test files, 55 tests passing.
 
 `pnpm build` — passing.
 
