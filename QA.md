@@ -64,6 +64,8 @@
 - Location unlocks are now derived from completed contracts and stages instead of static presentation flags.
 - Calendar holiday windows are deterministic and tested for First Thaw, Sunmarket Jubilee, Harvest Remembrance, and Veilwake; the active holiday now appears in the app header.
 
+- Battle header now surfaces the full living-enemy action queue rather than hiding the additional hostile intents behind the first target.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
