@@ -62,7 +62,7 @@
 - The Battle route now refuses to invent a default encounter when no stage is prepared and instead directs the player back to Campaign.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 140 · v3.8.0 Mid-Battle Control Switch.
+- Version label advanced to Milestone 141 · v3.8.0 Safe Control Shortcut.
 - QA counts now match the latest 33-file, 118-test verification run.
 - Tactical control mode now has a tested manual/AI toggle contract as the foundation for the next combat UI pass.
 - AI control now has a tested nearest-living-enemy selector with deterministic id tie-breaking.
@@ -74,6 +74,7 @@
 - Save migration coverage now proves both the manual default for older saves and preservation of an explicitly saved AI mode.
 - AI end-turn actor/target selection is now centralized in the tested battle-control data layer.
 - Tactical combat now switches the persisted Manual/AI control mode in place with the `M` key and advertises that control in the opening log.
+- The `M` shortcut ignores focused input and textarea elements, preventing accidental mode changes while typing.
 - Package metadata now reports version `3.8.0`, matching the visible build release label.
 - The project now exposes one `pnpm qa` command that runs the complete test suite and production build sequentially.
 - Battle-entry readiness is now a tested data-layer contract shared by the tactical screen, preventing an unprepared route from entering combat.
@@ -100,9 +101,9 @@
 - Enemy pathing now clamps proposed steps to the authored 8 × 6 board bounds.
 - Shared player movement validation now rejects off-board coordinates before occupancy and distance checks.
 - Enemy pathing now treats authored water cells as blocked while preserving their terrain rendering.
-- Stage manifests now expose a shared deduplicated obstacle-plus-water blocker set, covered across the data layer and tactical renderer.
-- The authored Steady Hands passive now ad
-ds one outgoing damage, using the saved roster passive collection.
+- Stage manifests now expose a shared deduplicated obstacle-plus-water
+ blocker set, covered across the data layer and tactical renderer.
+- The authored Steady Hands passive now adds one outgoing damage, using the saved roster passive collection.
 - The authored Opportunist reaction now deals one counter damage when its bearer is struck.
 - Reaction counter damage is now centralized in the combat-effects data layer and directly tested.
 - Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
