@@ -100,6 +100,8 @@ Specialist reactions now contribute authored counter power through the shared re
 
 Specialist healing now includes Lay on Hands at 6 HP, with the battle log naming the selected healing skill and direct combat-effects coverage.
 
+Specialist unlocks now enforce both Job Level 4 and the authored parent job family, with invalid-parent regression coverage.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
