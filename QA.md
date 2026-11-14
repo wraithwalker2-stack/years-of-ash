@@ -2,6 +2,7 @@
 
 ## Verified locally
 
+- Milestone 175: Field Tonic is classified as a self-targeting skill in the shared targeting data, matching its combat execution and log semantics.
 - Milestone 174: Field Tonic now resolves as a usable self-heal for its starter Alchemist skill, restoring 3 HP with deterministic coverage.
 - Milestone 173: Quickstep now performs a real obstacle-aware one-tile reposition toward the selected or nearest enemy, consumes the action, and applies authored hazard damage.
 - Milestone 172: Guard Stance is now a visible tactical action that reduces the next incoming hit by 2, consumes the unit action, breaks when struck, and has direct combat-effect coverage.
