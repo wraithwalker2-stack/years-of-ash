@@ -62,12 +62,13 @@
 - The Battle route now refuses to invent a default encounter when no stage is prepared and instead directs the player back to Campaign.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 130 · v3.8.0 QA Evidence Sync.
-- QA counts now match the latest 32-file, 113-test verification run.
+- Version label advanced to Milestone 131 · v3.8.0 Control Mode Contract.
+- QA counts now match the latest 33-file, 114-test verification run.
+- Tactical control mode now has a tested manual/AI toggle contract as the foundation for the next combat UI pass.
 - Package metadata now reports version `3.8.0`, matching the visible build release label.
 - The project now exposes one `pnpm qa` command that runs the complete test suite and production build sequentially.
 - Battle-entry readiness is now a tested data-layer contract shared by the tactical screen, preventing an unprepared route from entering combat.
-- Automated QA at the current release: `pnpm exec vitest run` — 32 test files, 113 tests passing; `pnpm run build` — production build completed.
+- Automated QA at the current release: `pnpm exec vitest run` — 33 test files, 114 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
 - Stage victories now grant 20 JP to every roster member and recalculate job level atomically with gold, loot, and forging material.
@@ -100,9 +101,9 @@
 - First-time stage claims now advance the calendar exactly once alongside rewards and return flow; duplicate claims do not advance it.
 - Campaign political powers now display live saved reputation standings, matching the Job Board’s faction consequences.
 - Forge now supports salvaging owned crafted equipment into Common material through the same save-backed inventory transaction.
-- Retainers are now save-backed role assignments for Apothecary, Scavenger, and Miner, with roster-driven selectors in Guild Services.
-- Retainer assignments now have deterministic effects: Miner on travel, 
-Apothecary on contracts, and Scavenger on stage claims.
+- Retainers are now save-backed role assignments for Apothecary, Scavenger, and Miner, w
+ith roster-driven selectors in Guild Services.
+- Retainer assignments now have deterministic effects: Miner on travel, Apothecary on contracts, and Scavenger on stage claims.
 - Save migration now normalizes missing character skills, passives, reactions, and equipment collections for older saves.
 - Market stock now rotates deterministically for Sunmarket Jubilee and Veilwake instead of remaining a fixed list.
 - Audio references now run through a single cue manager with music/SFX buses, volume metadata, and autoplay-safe failure handling.
@@ -121,7 +122,7 @@ Apothecary on contracts, and Scavenger on stage claims.
 
 ## Commands
 
-`pnpm test` — 32 test files, 113 tests passing.
+`pnpm test` — 33 test files, 114 tests passing.
 
 - The published QA ledger now reports the current 31-file, 112-test verification counts instead of superseded historical totals.
 
