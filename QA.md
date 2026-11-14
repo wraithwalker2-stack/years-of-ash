@@ -38,9 +38,10 @@
 - Objective rules now have a tested evaluator for eliminate, capture, and escort completion, including enemy-clearance requirements.
 - Battle outcome rules now provide one tested active/victory/defeat contract with defeat precedence.
 - Equipment now has a centralized nine-slot schema normalizer and duplicate-loadout validator.
+- Save migration now applies the nine-slot equipment normalizer to every restored character.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 103 · v1.3.0 Equipment Schema.
+- Version label advanced to Milestone 104 · v1.4.0 Equipment Migration.
 - Automated QA: `pnpm exec vitest run` — 28 test files, 94 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
