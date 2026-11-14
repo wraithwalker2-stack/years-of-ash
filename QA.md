@@ -88,6 +88,8 @@ Job changes now atomically return newly incompatible equipped gear to inventory;
 
 Job growth is now stat-bearing: contract and stage JP rewards use one helper that raises authored growth stats at each job-level threshold, covered by direct tests.
 
+Advanced specialist catalog slice: Sentinel, Runeblade, Ninja, Summoner, Assassin, Monk, Paladin, Warlock, and Engineer now have packet-aligned parent metadata, Job Level 4 gates, growth profiles, and starter kits. Parent-job equipment compatibility is tested. Full specialist skill trees and multi-job prerequisites remain open.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
