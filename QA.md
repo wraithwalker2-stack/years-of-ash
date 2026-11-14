@@ -82,6 +82,8 @@ Tactical terrain tiles now use translucent overlays so authored stage scenes rem
 
 Tactical movement now triggers the packet footstep cue through the shared audio manager.
 
+Legacy stage music identifiers are normalized at the tactical data boundary to the two packet tracks actually hosted in `public/audio`, with direct coverage.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
