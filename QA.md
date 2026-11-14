@@ -27,6 +27,7 @@
 - Milestone 165: AI tactical logs now prefer readable unit names over internal IDs.
 - Milestone 166: AI turn-plan coverage now verifies configurable attack range propagation.
 - Milestone 167: AI turn planning now returns no plan when no living target exists.
+- Milestone 168: AI turn planning now returns no plan when every guild actor is down.
 - Milestone 142: tactical combat now shows the persisted Manual/AI control mode beside an in-place switch, while retaining the tested `M` shortcut.
 - Vite + TypeScript + React static build with relative GitHub Pages asset paths.
 - Unified, namespaced `GameState` with save/reset, theme, audio toggle, founder setup, roster, inventory, contracts, reputation, equipment, campaign completion, gold, JP, and job-level progression.
