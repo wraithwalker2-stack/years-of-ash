@@ -22,7 +22,7 @@
 - Faction standing now has explicit Hostile/Neutral/Trusted/Allied tiers with visible consequences on the job board.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 51 · v0.51.0 Enemy Intent for deterministic nearest-target enemy turns.
+- Version label advanced to Milestone 52 · v0.52.0 Charter Integrity for validated retainer state.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
 - Stage victories now grant 20 JP to every roster member and recalculate job level atomically with gold, loot, and forging material.
@@ -33,6 +33,8 @@
 - Enemy turns now prioritize the nearest living guild target deterministically, with regression coverage for authored multi-enemy rosters.
 - Battle UI now surfaces the prioritized enemy intent before the player ends the turn.
 - Battle log now exposes the measurable 8 × 6 / 48-tile battlefield benchmark during deployment.
+- Authored signature enemies now have distinct deterministic base damage values, covered by combat regression tests.
+- Retainer assignment state now rejects unknown characters and unsupported roles before persisting.
 - Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
 - World travel now advances by the displayed route duration and recalculates the saved season consistently.
