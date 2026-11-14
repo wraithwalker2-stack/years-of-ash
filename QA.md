@@ -72,6 +72,8 @@ Packet-authored Greenway, Mosslight, Ashen Observatory, and Hollow Sepulcher sce
 
 Packet-authored Floodworks, Southgate, and Veilwake scenes now back the expanded tactical stages as well.
 
+Character Ledger now exposes gated job changes at Job Level 2; switching applies the new job starter skill/passive and clears incompatible reactions through one save-backed action.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
