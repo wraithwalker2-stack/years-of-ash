@@ -6,6 +6,7 @@
 - Milestone 184: tactical grid cells now expose selected and targeted focus through `aria-pressed`, keeping keyboard and assistive-technology state aligned with the visual highlight.
 - Milestone 185: tactical cells now provide a high-contrast keyboard focus ring and a matching pressed-state outline for reliable navigation on the battlefield.
 - Milestone 186: the tactical battlefield now exposes grid semantics and each authored cell exposes the gridcell role for structured assistive-technology navigation.
+- Milestone 187: tactical grid cells now expose one-based row and column indices, making the authored battlefield geometry available to assistive technology.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
