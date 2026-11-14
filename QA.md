@@ -44,9 +44,10 @@
 - The audio manager now exposes one safe music-cue lookup with a deterministic default fallback.
 - Tactical battle now routes stage music through the shared audio cue lookup and manager.
 - The stage catalog test now requires every campaign entry to have a valid manifest; missing stage data cannot be silently skipped.
+- Stage validation now cross-checks mapped music against the published local audio cue catalog.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 109 · v1.9.0 Complete Stage Catalog.
+- Version label advanced to Milestone 110 · v2.0.0 Published Audio Validation.
 - Automated QA: `pnpm exec vitest run` — 28 test files, 94 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
