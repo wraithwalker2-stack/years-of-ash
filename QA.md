@@ -57,9 +57,10 @@
 - Stage validation now rejects duplicate deployment coordinates so five authored slots always represent five usable positions.
 - Tactical encounter construction now places all five authoritative guild members directly on the stage manifest’s authored deployment cells.
 - Published music mapping now explicitly covers every authored stage-family reference and documents the packet’s two-track fallback without inventing missing audio.
+- Tactical roster placement is now regression-tested against every authored campaign manifest, not only the opening stage.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 122 · v3.2.0 Explicit Music Fallbacks.
+- Version label advanced to Milestone 123 · v3.3.0 Campaign-Wide Roster Placement.
 - Automated QA: `pnpm exec vitest run` — 28 test files, 94 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
@@ -101,9 +102,9 @@
 - Forge now exposes save-backed Common material recipes with gold/material gating and inventory results.
 - Stage completion now grants one Common forging material exactly once, closing the reward-to-crafting loop.
 - World travel now persists the current location, advances the calendar, and only offers direct travel along unlocked roads.
+
 - Location unlocks are now derived from completed contracts and stages instead of static presentation flags.
-- Calendar holiday 
-windows are deterministic and tested for First Thaw, Sunmarket Jubilee, Harvest Remembrance, and Veilwake; the active holiday now appears in the app header.
+- Calendar holiday windows are deterministic and tested for First Thaw, Sunmarket Jubilee, Harvest Remembrance, and Veilwake; the active holiday now appears in the app header.
 
  - Packet-authored music and SFX binaries are now copied into the static `public/audio` bundle; the build includes the referenced audio files for GitHub Pages playback.
 - Packet-authored Greenway, Mosslight, Ashen Observatory, and Hollow Sepulcher scene images now back the corresponding tactical boards instead of placeholder SVG layers.
