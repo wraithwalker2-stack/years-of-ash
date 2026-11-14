@@ -116,7 +116,7 @@ The static build is published at https://wraithwalker2-stack.github.io/years-of-
 
 ## Remaining scope
 
-The restart packet’s later milestones still require richer enemy AI, hazards/elevation depth, complete class/skill/equipment progression, art archive integration, binary audio hosting, and explicit FFT-scale battlefield benchmark evidence. Those are not being claimed complete.
+The restart packet’s later milestones still require richer enemy AI, deeper hazards/elevation behavior, complete class/skill/equipment progression, fuller art archive integration, and explicit FFT-scale battlefield benchmark evidence. Those are not being claimed complete.
 
 ## Tactical benchmark
 
