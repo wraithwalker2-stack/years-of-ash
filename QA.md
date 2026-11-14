@@ -84,6 +84,8 @@ Tactical movement now triggers the packet footstep cue through the shared audio 
 
 Legacy stage music identifiers are normalized at the tactical data boundary to the two packet tracks actually hosted in `public/audio`, with direct coverage.
 
+Job changes now atomically return newly incompatible equipped gear to inventory; equipment ownership tests cover the transition.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
