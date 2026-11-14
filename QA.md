@@ -68,6 +68,8 @@
 
 - Enemy ordering and defeated-unit filtering now use one shared `enemyQueue` data helper with direct regression coverage.
 
+Packet-authored Greenway, Mosslight, Ashen Observatory, and Hollow Sepulcher scene images now back the corresponding tactical boards instead of placeholder SVG layers.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
