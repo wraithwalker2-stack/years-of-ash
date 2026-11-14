@@ -62,7 +62,7 @@
 - The Battle route now refuses to invent a default encounter when no stage is prepared and instead directs the player back to Campaign.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 136 · v3.8.0 Manual AI Toggle.
+- Version label advanced to Milestone 137 · v3.8.0 AI Turn Assist.
 - QA counts now match the latest 33-file, 116-test verification run.
 - Tactical control mode now has a tested manual/AI toggle contract as the foundation for the next combat UI pass.
 - AI control now has a tested nearest-living-enemy selector with deterministic id tie-breaking.
@@ -70,6 +70,7 @@
 - Battle control mode is now part of the authoritative save state and older saves migrate safely to manual control.
 - Tactical battle briefing now reads and displays the authoritative saved control mode.
 - Settings now exposes a Manual guild control / AI guild control toggle backed by the same saved GameState field.
+- In AI mode, ending the turn selects the deterministic next guild actor and nearest living target using the shared AI planner, while preserving manual confirmation of the action.
 - Package metadata now reports version `3.8.0`, matching the visible build release label.
 - The project now exposes one `pnpm qa` command that runs the complete test suite and production build sequentially.
 - Battle-entry readiness is now a tested data-layer contract shared by the tactical screen, preventing an unprepared route from entering combat.
@@ -100,10 +101,10 @@
 - The authored Steady Hands passive now adds one outgoing damage, using the saved roster passive collection.
 - The authored Opportunist reaction now deals one counter damage when its bearer is struck.
 - Reaction counter damage is now centralized in the combat-effects data layer and directly tested.
-- Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
+- Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tes
+ts cover their signature enemies.
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
-- World travel now advances by the displ
-ayed route duration and recalculates the saved season consistently.
+- World travel now advances by the displayed route duration and recalculates the saved season consistently.
 - First-time stage claims now advance the calendar exactly once alongside rewards and return flow; duplicate claims do not advance it.
 - Campaign political powers now display live saved reputation standings, matching the Job Board’s faction consequences.
 - Forge now supports salvaging owned crafted equipment into Common material through the same save-backed inventory transaction.
