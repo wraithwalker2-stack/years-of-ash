@@ -98,6 +98,8 @@ Specialist starter passives Iron Fists, Runic Edge, and Field Machinery now cont
 
 Specialist reactions now contribute authored counter power through the shared reaction helper, with direct coverage for Iron Rebuke, Arcane Reprisal, and Opportunist.
 
+Specialist healing now includes Lay on Hands at 6 HP, with the battle log naming the selected healing skill and direct combat-effects coverage.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
