@@ -31,6 +31,7 @@
 - Tactical units now also inherit saved equipment, so Ledger weapon and armor changes feed combat calculations.
 - Tactical stages now route music, impact, healing, and victory cues through the audio manager with autoplay-safe handling.
 - Enemy turns now prioritize the nearest living guild target deterministically, with regression coverage for authored multi-enemy rosters.
+- Battle UI now surfaces the prioritized enemy intent before the player ends the turn.
 - Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
 - World travel now advances by the displayed route duration and recalculates the saved season consistently.
