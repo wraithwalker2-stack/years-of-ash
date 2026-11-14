@@ -2,6 +2,7 @@
 
 ## Verified locally
 
+- Milestone 174: Field Tonic now resolves as a usable self-heal for its starter Alchemist skill, restoring 3 HP with deterministic coverage.
 - Milestone 173: Quickstep now performs a real obstacle-aware one-tile reposition toward the selected or nearest enemy, consumes the action, and applies authored hazard damage.
 - Milestone 172: Guard Stance is now a visible tactical action that reduces the next incoming hit by 2, consumes the unit action, breaks when struck, and has direct combat-effect coverage.
 - Milestone 143: AI end-turn selection now uses the shared attack/advance planner and records the proposed action before manual confirmation.
