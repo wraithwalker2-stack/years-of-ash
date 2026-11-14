@@ -45,6 +45,7 @@
 - Enemy pathing now treats authored water cells as blocked while preserving their terrain rendering.
 - Stage manifests now expose a shared deduplicated obstacle-plus-water blocker set, covered across the data layer and tactical renderer.
 - The authored Steady Hands passive now adds one outgoing damage, using the saved roster passive collection.
+- The authored Opportunist reaction now deals one counter damage when its bearer is struck.
 - Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
 - World travel now advances by the displayed route duration and recalculates the saved season consistently.
