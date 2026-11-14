@@ -2,6 +2,7 @@
 
 ## Verified locally
 
+- Milestone 179: tactical boards now mark legal movement destinations from the shared reachable-cell calculation while a guild unit is active.
 - Milestone 178: reachable-cell coverage now verifies terrain costs, including water consuming two movement points.
 - Milestone 177: movement now exposes one tested reachable-cell enumerator built on shared obstacle, occupancy, board-bound, and terrain-cost rules.
 - Milestone 176: AI attack planning now uses the shared line-of-sight rule, so covered targets produce an advance plan instead of an impossible attack.
