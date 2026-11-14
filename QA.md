@@ -55,9 +55,10 @@
 - Deployment eligibility is now centralized in one data-layer rule shared by the tactical placement flow and deployment validation.
 - Stage validation now requires exactly five deployment cells, matching the authoritative five-member guild roster and runtime deployment contract.
 - Stage validation now rejects duplicate deployment coordinates so five authored slots always represent five usable positions.
+- Tactical encounter construction now places all five authoritative guild members directly on the stage manifest’s authored deployment cells.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 120 · v3.0.0 Unique Deployment Slots.
+- Version label advanced to Milestone 121 · v3.1.0 Authored Roster Placement.
 - Automated QA: `pnpm exec vitest run` — 28 test files, 94 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
@@ -102,8 +103,8 @@
 - Location unlocks are now derived from completed contracts and stages instead of static presentation flags.
 - Calendar holiday windows are deterministic and tested for First Thaw, Sunmarket Jubilee, Harvest Remembrance, and Veilwake; the active holiday now appears in the app header.
 
- - Packet-authored music and SFX binaries are now copied into the static `public/audio` bundle; the build includes the referenced audio files for GitH
-ub Pages playback.
+ - Pac
+ket-authored music and SFX binaries are now copied into the static `public/audio` bundle; the build includes the referenced audio files for GitHub Pages playback.
 - Packet-authored Greenway, Mosslight, Ashen Observatory, and Hollow Sepulcher scene images now back the corresponding tactical boards instead of placeholder SVG layers.
 - Packet-authored Floodworks, Southgate, and Veilwake scenes now back the expanded tactical stages as well.
 - Tactical terrain tiles now use translucent overlays so authored stage scenes remain visible beneath the readable logical grid.
