@@ -76,7 +76,7 @@ Character Ledger now exposes gated job changes at Job Level 2; switching applies
 
 Job-change eligibility and starter-kit behavior now have direct data-layer regression tests; the suite is 24 files / 61 tests passing.
 
-Version label advanced to Milestone 55 · v0.55.0 Job Progression for the gated job-change ledger flow.
+Version label advanced to Milestone 56 · v0.56.0 Specialist Combat for the gated job-change ledger flow.
 
 Tactical terrain tiles now use translucent overlays so authored stage scenes remain visible beneath the readable logical grid.
 
@@ -102,11 +102,11 @@ Specialist healing now includes Lay on Hands at 6 HP, with the battle log naming
 
 Specialist unlocks now enforce both Job Level 4 and the authored parent job family, with invalid-parent regression coverage.
 
-Sacred Armor and Merciful Hands now add authored healing power to Lay on Hands and Reagent Burst through the shared healing resolver, with direct coverage.
+Sacred Armor and Merciful Hands now add authored healing power to Lay on Hands and Reagent Burst through the shared healing resolver, with direct coverage.\n\nMilestone 56 specialist combat now includes skill-specific actions, Blast Mine area targeting, Summon Spirit Wolf allied summons, Soul Leech defeat healing, Withering Hex weakening, and explicit reaction counterattack logs.\n\nMerciful Hands has direct healing regression coverage.
 
 ## Commands
 
-`pnpm test` — 23 test files, 57 tests passing.
+`pnpm test` — 24 test files, 70 tests passing.
 
 `pnpm build` — passing.
 
