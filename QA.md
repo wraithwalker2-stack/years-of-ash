@@ -10,6 +10,7 @@
 - Milestone 188: tactical grids now expose their authored row and column totals, completing the battlefield dimension metadata for structured navigation.
 - Milestone 189: the tactical grid’s accessible name now includes the active stage and authored dimensions, connecting navigation context to the battlefield briefing.
 - Milestone 190: the tactical grid now references the live battle briefing, connecting objective and enemy-intent context to battlefield navigation.
+- Milestone 191: the tactical battle briefing now announces objective and enemy-intent changes through a polite live region.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
