@@ -41,6 +41,7 @@
 - High-ground tiles now reduce incoming enemy damage by one, with deterministic combat coverage.
 - Hazard tiles now reduce outgoing attack damage by one, complementing movement hazard damage.
 - Enemy pathing now clamps proposed steps to the authored 8 × 6 board bounds.
+- Shared player movement validation now rejects off-board coordinates before occupancy and distance checks.
 - Floodworks 2, Southgate, and Veilwake now use authored enemy rosters instead of the Greenway fallback; encounter tests cover their signature enemies.
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
 - World travel now advances by the displayed route duration and recalculates the saved season consistently.
