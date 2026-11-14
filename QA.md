@@ -96,6 +96,8 @@ Specialist active-skill damage bonuses now resolve through the tactical combat-e
 
 Specialist starter passives Iron Fists, Runic Edge, and Field Machinery now contribute authored outgoing power through the shared combat-effects layer, with direct tests.
 
+Specialist reactions now contribute authored counter power through the shared reaction helper, with direct coverage for Iron Rebuke, Arcane Reprisal, and Opportunist.
+
 ## Commands
 
 `pnpm test` — 23 test files, 57 tests passing.
