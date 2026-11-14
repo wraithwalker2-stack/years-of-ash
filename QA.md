@@ -2,6 +2,7 @@
 
 ## Verified locally
 
+- Milestone 178: reachable-cell coverage now verifies terrain costs, including water consuming two movement points.
 - Milestone 177: movement now exposes one tested reachable-cell enumerator built on shared obstacle, occupancy, board-bound, and terrain-cost rules.
 - Milestone 176: AI attack planning now uses the shared line-of-sight rule, so covered targets produce an advance plan instead of an impossible attack.
 - Milestone 175: Field Tonic is classified as a self-targeting skill in the shared targeting data, matching its combat execution and log semantics.
@@ -167,7 +168,7 @@
 
 ## Commands
 
-`pnpm test` — 33 test files, 122 tests passing.
+`pnpm test` — 33 test files, 123 tests passing.
 
 - The published QA ledger reports the current 33-file, 120-test verification counts.
 
