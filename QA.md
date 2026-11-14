@@ -21,9 +21,10 @@
 - Stage manifests carry music references for a later audio-manager pass; no binary audio is claimed as published.
 - Faction standing now has explicit Hostile/Neutral/Trusted/Allied tiers with visible consequences on the job board.
 - Reputation changes now retain faction, signed delta, source, and campaign day in the save-backed reputation log; older saves migrate to an empty log.
+- Campaign now surfaces the latest dated standing changes from that authoritative log.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 86 · v0.86.0 Reputation Log.
+- Version label advanced to Milestone 87 · v0.87.0 Standing History.
 - Automated QA: `pnpm test -- --run` — 25 test files, 92 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
