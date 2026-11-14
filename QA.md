@@ -62,14 +62,15 @@
 - The Battle route now refuses to invent a default encounter when no stage is prepared and instead directs the player back to Campaign.
 - Trusted sponsors now increase contract payout by 10% with deterministic rounding; hostile sponsors block the claim button and shared-state action.
 - Ashen Observatory and Mosslight now use packet-authored SVG scene layers behind the logical tactical grid; the SVG assets are published as text files alongside the Pages build.
-- Version label advanced to Milestone 132 · v3.8.0 Deterministic AI Targeting.
-- QA counts now match the latest 33-file, 115-test verification run.
+- Version label advanced to Milestone 133 · v3.8.0 AI Action Planner.
+- QA counts now match the latest 33-file, 116-test verification run.
 - Tactical control mode now has a tested manual/AI toggle contract as the foundation for the next combat UI pass.
 - AI control now has a tested nearest-living-enemy selector with deterministic id tie-breaking.
+- AI control now has a tested attack-or-advance planner that returns an action instead of stalling when a target is out of range.
 - Package metadata now reports version `3.8.0`, matching the visible build release label.
 - The project now exposes one `pnpm qa` command that runs the complete test suite and production build sequentially.
 - Battle-entry readiness is now a tested data-layer contract shared by the tactical screen, preventing an unprepared route from entering combat.
-- Automated QA at the current release: `pnpm exec vitest run` — 33 test files, 115 tests passing; `pnpm run build` — production build completed.
+- Automated QA at the current release: `pnpm exec vitest run` — 33 test files, 116 tests passing; `pnpm run build` — production build completed.
 - Tactical combat now exposes an explicit selector for every living guild unit, making five-member manual control visible and deterministic.
 - Reagent Burst now resolves ally healing before enemy targeting, so the learned active skill is usable in the tactical UI.
 - Stage victories now grant 20 JP to every roster member and recalculate job level atomically with gold, loot, and forging material.
@@ -100,9 +101,9 @@
 - Expanded stages now have deterministic reward mappings instead of falling back to generic tonic loot.
 - World travel now advances by the displayed route duration and recalculates the saved season consistently.
 - First-time stage claims now advance the calendar exactly once alongside rewards and return flow; duplicate claims do not advance it.
-- Campaign political powers now display live saved reputation standings, matching the Job Board’s faction consequences.
-- Forge now supports salvaging owned crafted equipment into Common material through the same save-backed inventory 
-transaction.
+- Campaign political powers now display live saved reputation standings, matching the Job Board’s faction conseque
+nces.
+- Forge now supports salvaging owned crafted equipment into Common material through the same save-backed inventory transaction.
 - Retainers are now save-backed role assignments for Apothecary, Scavenger, and Miner, with roster-driven selectors in Guild Services.
 - Retainer assignments now have deterministic effects: Miner on travel, Apothecary on contracts, and Scavenger on stage claims.
 - Save migration now normalizes missing character skills, passives, reactions, and equipment collections for older saves.
@@ -123,7 +124,7 @@ transaction.
 
 ## Commands
 
-`pnpm test` — 33 test files, 115 tests passing.
+`pnpm test` — 33 test files, 116 tests passing.
 
 - The published QA ledger now reports the current 31-file, 112-test verification counts instead of superseded historical totals.
 
