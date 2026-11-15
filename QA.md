@@ -23,6 +23,7 @@
 - Milestone 201: tactical active-skill controls now expose their learned loadout role through explicit labels and tooltips.
 - Milestone 202: tactical combat now derives the active unit’s saved reaction loadout alongside its active skills for the battle UI.
 - Milestone 203: the skill catalog now carries tested tactical descriptions for active and reaction skills.
+- Milestone 204: the Ledger skill shop now displays each data-driven skill description before purchase.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
