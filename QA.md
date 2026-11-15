@@ -35,6 +35,7 @@
 - Milestone 213: authored ranged enemies now have a three-tile attack range while other enemies retain two tiles, with shared combat coverage.
 - Milestone 214: enemy intent briefings now communicate each archetype’s authored attack range.
 - Milestone 215: enemy intent briefings now label ranged archetypes explicitly alongside their attack range.
+- Milestone 216: enemy intent briefings now label both melee and ranged archetypes through one tested threat-type helper.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
