@@ -32,6 +32,7 @@
 - Milestone 210: AI actor selection now accounts for legal attack range and line of sight before wound and distance priorities, with regression coverage.
 - Milestone 211: AI target selection now prefers a legal visible target before blocked targets, with deterministic regression coverage.
 - Milestone 212: enemy turns now use the shared AI target selector, keeping enemy target priority consistent with guild AI behavior.
+- Milestone 213: authored ranged enemies now have a three-tile attack range while other enemies retain two tiles, with shared combat coverage.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
