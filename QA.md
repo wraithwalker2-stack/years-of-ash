@@ -27,6 +27,7 @@
 - Milestone 205: tactical active-skill controls now use the same data-driven descriptions as the Ledger.
 - Milestone 206: deterministic AI target selection now prioritizes the lower-HP target when distance is tied, with regression coverage.
 - Milestone 207: AI-controlled guild turns now prioritize the most wounded living actor, with deterministic regression coverage.
+- Milestone 208: AI-controlled guild turns now prioritize an actor already in attack range before applying wound-severity priority, with regression coverage.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
