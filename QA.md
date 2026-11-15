@@ -13,6 +13,7 @@
 - Milestone 191: the tactical battle briefing now announces objective and enemy-intent changes through a polite live region.
 - Milestone 192: the tactical briefing now announces each complete update atomically, preventing partial context from being read.
 - Milestone 193: the Ledger now visibly locks advanced jobs until their saved job-level requirements are met, exposing the exact prerequisite chain instead of silently rejecting a job change.
+- Milestone 194: the Ledger now surfaces each character’s saved multi-job mastery history and level, making class progression visible across job changes.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
