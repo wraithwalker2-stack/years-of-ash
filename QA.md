@@ -65,6 +65,7 @@
 - Milestone 243: threat labels now cover zero/short range boundaries as melee without changing authored severity.
 - Milestone 244: malformed negative ranges now have tested safe melee-label behavior.
 - Milestone 245: non-finite range values now have tested safe melee-label behavior.
+- Milestone 246: positive-infinite range modifiers now have tested ranged-label behavior without changing authored severity.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
