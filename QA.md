@@ -256,4 +256,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Current modularity: stage identity, terrain presets, authored scene layers, encounter composition, movement, attack, AI turn, and reward persistence are separate data/state concerns.
 - FFT comparison target: preserve a readable isometric/tactical playfield with at least 48 logical tiles, at least 3 meaningful elevation/terrain states, and stage data that can swap encounters without rewriting the renderer. The current slice meets the tile-count and modular-data targets, but does not yet match FFT’s isometric art, sprite resolution, animation density, or multi-height map complexity.
 - Milestone 247: enemy combat profiles now have a deterministic finite-range and finite-damage audit.
+- Milestone 248: stage threat summaries now deduplicate enemy rosters and report range and severity mix.
 
