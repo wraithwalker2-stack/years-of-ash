@@ -58,6 +58,7 @@
 - Milestone 236: threat summaries now retain deterministic archetype names grouped by severity tier.
 - Milestone 237: unknown enemy archetypes now have tested standard-severity fallback behavior.
 - Milestone 238: tactical enemy intent briefings now include the shared standard/medium/high severity label.
+- Milestone 239: unknown enemy intent briefings now visibly identify their standard-severity fallback.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
