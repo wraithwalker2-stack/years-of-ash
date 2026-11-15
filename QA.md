@@ -268,4 +268,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 257: encounter pressure scores now preserve duplicate enemy instances for battlefield balancing.
 - Milestone 258: tactical briefings now report duplicate-aware encounter pressure alongside roster threat descriptors.
 - Milestone 259: duplicate-aware encounter descriptors now share a tested format for battle briefings.
+- Milestone 260: live tactical briefing text now keeps the encounter pressure descriptor visible during turns.
 
