@@ -53,6 +53,7 @@
 - Milestone 231: threat summaries now include the average authored base damage for compact pressure comparisons.
 - Milestone 232: threat summaries now expose maximum authored range and base damage for quick danger-boundary checks.
 - Milestone 233: threat summaries now identify the archetypes tied for maximum range and base damage.
+- Milestone 234: combat data now provides tested standard, medium, and high threat-severity labels.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
