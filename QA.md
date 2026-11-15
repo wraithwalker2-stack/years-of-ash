@@ -271,4 +271,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 260: live tactical briefing text now keeps the encounter pressure descriptor visible during turns.
 - Milestone 261: unknown enemy entries now have tested safe encounter-pressure fallbacks.
 - Milestone 262: empty encounter briefings now resolve to an explicit light-pressure, zero-score descriptor.
+- Milestone 263: unknown enemy encounter descriptors now have tested readable fallback output.
 
