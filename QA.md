@@ -273,4 +273,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 262: empty encounter briefings now resolve to an explicit light-pressure, zero-score descriptor.
 - Milestone 263: unknown enemy encounter descriptors now have tested readable fallback output.
 - Milestone 264: light, guarded, and severe threat-band boundaries now have explicit regression coverage.
+- Milestone 265: negative-infinite range modifiers now have tested safe melee-label behavior.
 
