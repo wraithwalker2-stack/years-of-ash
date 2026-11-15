@@ -276,4 +276,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 265: negative-infinite range modifiers now have tested safe melee-label behavior.
 - Milestone 266: Campaign stage cards now show combined duplicate-aware encounter pressure descriptors.
 - Milestone 267: all authored campaign stages now have regression coverage for non-empty threat descriptors.
+- Milestone 268: empty and unknown encounter rosters now have explicit light-band regression coverage.
 
