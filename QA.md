@@ -264,4 +264,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 253: authored stages now have deterministic deduplicated pressure scores for balancing.
 - Milestone 254: stage pressure scores now map to stable light, guarded, or severe threat bands.
 - Milestone 255: stage threat descriptors now combine readable pressure bands with deterministic scores.
+- Milestone 256: tactical battle briefings now include each stage's readable threat descriptor.
 
