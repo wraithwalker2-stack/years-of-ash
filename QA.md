@@ -21,6 +21,7 @@
 - Milestone 199: the Ledger now separates learned passives and reaction skills, making each character’s combat build explicit.
 - Milestone 200: the Ledger now labels the learned active-skill loadout separately from passives and reactions.
 - Milestone 201: tactical active-skill controls now expose their learned loadout role through explicit labels and tooltips.
+- Milestone 202: tactical combat now derives the active unit’s saved reaction loadout alongside its active skills for the battle UI.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
