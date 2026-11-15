@@ -47,6 +47,7 @@
 - Milestone 225: every unique enemy in all eight campaign stages now has explicit combat-profile coverage in the catalog test.
 - Milestone 226: the Codex now surfaces every authored enemy threat profile with type, range, and base damage.
 - Milestone 227: combat data now exposes a tested total/melee/ranged threat-profile summary for Codex and future UI surfaces.
+- Milestone 228: enemy profile entries now have a deterministic alphabetical ordering helper for consistent Codex presentation.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
