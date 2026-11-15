@@ -270,4 +270,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 259: duplicate-aware encounter descriptors now share a tested format for battle briefings.
 - Milestone 260: live tactical briefing text now keeps the encounter pressure descriptor visible during turns.
 - Milestone 261: unknown enemy entries now have tested safe encounter-pressure fallbacks.
+- Milestone 262: empty encounter briefings now resolve to an explicit light-pressure, zero-score descriptor.
 
