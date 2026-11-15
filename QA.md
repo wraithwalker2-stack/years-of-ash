@@ -277,4 +277,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 266: Campaign stage cards now show combined duplicate-aware encounter pressure descriptors.
 - Milestone 267: all authored campaign stages now have regression coverage for non-empty threat descriptors.
 - Milestone 268: empty and unknown encounter rosters now have explicit light-band regression coverage.
+- Milestone 269: campaign audits now flag empty placeholder stages for future content completion.
 
