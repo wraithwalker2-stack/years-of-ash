@@ -42,6 +42,7 @@
 - Milestone 220: enemy intent briefings now expose authored base damage alongside threat type and attack range.
 - Milestone 221: enemy intent briefings now clarify that base damage is measured before armor or terrain mitigation.
 - Milestone 222: combat now exposes one normalized enemy profile helper with tested defaults for unknown archetypes.
+- Milestone 223: every authored campaign enemy now has an explicit range and base-damage profile entry, with regression coverage for non-specialist archetypes.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
