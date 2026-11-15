@@ -16,6 +16,7 @@
 - Milestone 194: the Ledger now surfaces each character’s saved multi-job mastery history and level, making class progression visible across job changes.
 - Milestone 195: the Ledger now shows the active job’s prerequisite chain or base-job status alongside its mastery history.
 - Milestone 196: the Ledger now previews the next unlearned current-job skill and its JP cost, making skill progression legible before spending.
+- Milestone 197: skill-shop controls now explain learned state, availability, or the exact remaining JP shortfall.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
