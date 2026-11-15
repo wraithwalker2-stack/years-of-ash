@@ -44,6 +44,7 @@
 - Milestone 222: combat now exposes one normalized enemy profile helper with tested defaults for unknown archetypes.
 - Milestone 223: every authored campaign enemy now has an explicit range and base-damage profile entry, with regression coverage for non-specialist archetypes.
 - Milestone 224: combat data now exposes a tested missing-profile validator for future campaign content.
+- Milestone 225: every unique enemy in all eight campaign stages now has explicit combat-profile coverage in the catalog test.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
