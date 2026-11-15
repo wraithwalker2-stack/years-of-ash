@@ -259,4 +259,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 248: stage threat summaries now deduplicate enemy rosters and report range and severity mix.
 - Milestone 249: the complete eight-stage campaign now has a deterministic profile-completeness audit.
 - Milestone 250: campaign threat totals now aggregate authored ranged, melee, and severity pressure across all stages.
+- Milestone 251: campaign stage cards now show ranged/melee pressure and threat severity mix before preparation.
 
