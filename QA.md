@@ -19,6 +19,7 @@
 - Milestone 197: skill-shop controls now explain learned state, availability, or the exact remaining JP shortfall.
 - Milestone 198: the skill shop now labels each purchase as Active or Reaction alongside its JP cost.
 - Milestone 199: the Ledger now separates learned passives and reaction skills, making each character’s combat build explicit.
+- Milestone 200: the Ledger now labels the learned active-skill loadout separately from passives and reactions.
 - Milestone 182: tactical board buttons now expose complete accessible cell labels, including coordinates, terrain, occupants, HP, objectives, and legal movement affordances.
 - Milestone 181: tactical cells now expose accessible coordinate, terrain, occupant, objective, and movement-preview labels.
 - Milestone 180: reachable movement cells now have a visible tactical highlight style, completing the movement-preview feedback loop.
