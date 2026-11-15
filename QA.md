@@ -280,4 +280,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 269: campaign audits now flag empty placeholder stages for future content completion.
 - Milestone 270: campaign audits now expose a complete flag combining empty-stage and profile checks.
 - Milestone 271: campaign completeness summaries now report total, ready, empty, and missing-profile stages.
+- Milestone 272: Campaign now displays the complete, empty, and missing-profile readiness counts above the stage roster.
 
