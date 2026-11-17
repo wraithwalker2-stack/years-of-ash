@@ -283,4 +283,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 272: Campaign now displays the complete, empty, and missing-profile readiness counts above the stage roster.
 - Milestone 273: readiness summaries now have regression coverage for mixed empty and missing-profile stages.
 - Milestone 274: Campaign readiness counts now expose a polite status region for accessible updates.
+- Milestone 275: Campaign threat descriptors now expose explicit encounter-pressure labels for assistive technology.
 
