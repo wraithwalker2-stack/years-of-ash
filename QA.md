@@ -286,4 +286,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 275: Campaign threat descriptors now expose explicit encounter-pressure labels for assistive technology.
 - Milestone 276: Campaign readiness summaries are now computed once and reused across the ledger render.
 - Milestone 277: readiness status wording is now centralized and covered by a deterministic label test.
+- Milestone 278: leaving a tactical battle now returns to the Campaign ledger instead of Guild Hall.
 
