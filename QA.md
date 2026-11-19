@@ -285,4 +285,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 274: Campaign readiness counts now expose a polite status region for accessible updates.
 - Milestone 275: Campaign threat descriptors now expose explicit encounter-pressure labels for assistive technology.
 - Milestone 276: Campaign readiness summaries are now computed once and reused across the ledger render.
+- Milestone 277: readiness status wording is now centralized and covered by a deterministic label test.
 
