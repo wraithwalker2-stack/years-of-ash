@@ -297,4 +297,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 286: the browser document title now follows the active route for easier tab recognition.
 - Milestone 287: keyboard users can skip the primary navigation directly to the active game content.
 - Milestone 288: the skip-navigation destination is programmatically focusable for reliable keyboard handoff.
+- Milestone 289: service routes now announce friendly names in navigation and browser context.
+- Milestone 290: the main landmark now exposes the active route as its accessible label.
+- Milestone 291: keyboard focus visibility now has a consistent high-contrast focus ring across the shell.
 
