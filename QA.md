@@ -290,4 +290,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 279: Campaign now marks the currently prepared stage as Battle ready when returning from tactical play.
 - Milestone 280: prepared campaign stages now expose a clear Resume battle action label.
 - Milestone 281: the primary Battle navigation tab now reflects the active tactical route.
+- Milestone 282: the Campaign navigation tab now reflects the active campaign ledger route.
 
