@@ -309,4 +309,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 298: founder name now provides a standard name autofill hint.
 - Milestone 299: guild name now provides an organization autofill hint.
 - Milestone 300: save confirmations now announce through a polite live status region.
+- Milestone 301: founder and guild fields now expose required-field semantics.
+- Milestone 302: short invalid entries now expose aria-invalid state before submission.
+- Milestone 303: setup guidance now has a stable help-text identifier for future validation messaging.
 
