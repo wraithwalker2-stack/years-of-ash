@@ -300,4 +300,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 289: service routes now announce friendly names in navigation and browser context.
 - Milestone 290: the main landmark now exposes the active route as its accessible label.
 - Milestone 291: keyboard focus visibility now has a consistent high-contrast focus ring across the shell.
+- Milestone 292: sound control now exposes its enabled state with aria-pressed.
+- Milestone 293: theme control now exposes whether Midnight theme is active.
+- Milestone 294: battle-control mode now exposes its AI/manual toggle state.
 
