@@ -292,4 +292,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 281: the primary Battle navigation tab now reflects the active tactical route.
 - Milestone 282: the Campaign navigation tab now reflects the active campaign ledger route.
 - Milestone 283: active Campaign and Battle tabs now expose aria-current page context.
+- Milestone 284: every primary navigation destination now exposes active styling and aria-current page context.
 
