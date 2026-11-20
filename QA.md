@@ -303,4 +303,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 292: sound control now exposes its enabled state with aria-pressed.
 - Milestone 293: theme control now exposes whether Midnight theme is active.
 - Milestone 294: battle-control mode now exposes its AI/manual toggle state.
+- Milestone 295: founder and guild fields now use explicit label/input associations.
+- Milestone 296: founder setup now exposes its heading as the section label.
+- Milestone 297: settings now exposes its heading as the section label.
 
