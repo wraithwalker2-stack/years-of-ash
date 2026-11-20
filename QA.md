@@ -306,4 +306,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 295: founder and guild fields now use explicit label/input associations.
 - Milestone 296: founder setup now exposes its heading as the section label.
 - Milestone 297: settings now exposes its heading as the section label.
+- Milestone 298: founder name now provides a standard name autofill hint.
+- Milestone 299: guild name now provides an organization autofill hint.
+- Milestone 300: save confirmations now announce through a polite live status region.
 
