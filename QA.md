@@ -354,4 +354,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 343: the job-change selector now has an explicit accessible label.
 - Milestone 344: job-change guidance now has a stable help-text identifier.
 - Milestone 345: job requirements and unlock guidance are associated with the selector.
+- Milestone 346: all guild service screens now expose a labeled landmark heading.
+- Milestone 347: service balances now announce through a polite live status region.
+- Milestone 348: the shared Services shell now keeps Job Board, Market, Forge, and Codex context aligned.
 
