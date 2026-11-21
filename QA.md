@@ -312,4 +312,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 301: founder and guild fields now expose required-field semantics.
 - Milestone 302: short invalid entries now expose aria-invalid state before submission.
 - Milestone 303: setup guidance now has a stable help-text identifier for future validation messaging.
+- Milestone 304: sound control now has an explicit accessible label.
+- Milestone 305: theme control now has an explicit accessible label.
+- Milestone 306: the static shell now includes language, viewport, title, and game description metadata.
 
