@@ -327,4 +327,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 316: campaign objectives now have stable identifiers for assistive descriptions.
 - Milestone 317: stage preparation controls now reference their stage title and objective.
 - Milestone 318: campaign-to-battle actions now retain context when read outside the visual card.
+- Milestone 319: battle briefings now expose a named live status region.
+- Milestone 320: current battle-control mode now has an explicit accessible status label.
+- Milestone 321: the battle mode switch now exposes its AI/manual state with aria-pressed.
 
