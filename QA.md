@@ -318,4 +318,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 307: each campaign stage card now exposes a stable accessible heading association.
 - Milestone 308: campaign stage titles now provide unique identifiers for assistive navigation.
 - Milestone 309: stage objectives now announce their objective context explicitly.
+- Milestone 310: tactical battle screens now expose a stable accessible heading association.
+- Milestone 311: battle controls now form a labeled action group.
+- Milestone 312: the battle log now has an explicit landmark label.
 
