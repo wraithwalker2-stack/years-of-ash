@@ -358,4 +358,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 347: service balances now announce through a polite live status region.
 - Milestone 348: the shared Services shell now keeps Job Board, Market, Forge, and Codex context aligned.
 - M349–M351 Services Actions: Service controls retain explicit action naming and the shared service shell continues to expose balance feedback for assistive technology.
+- M352–M354 Battlefield Benchmarks: tactical stages report logical resolution, cohesion score, modularity, and explicit FFT footprint comparison.
 
