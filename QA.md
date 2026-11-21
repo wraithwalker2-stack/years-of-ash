@@ -321,4 +321,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 310: tactical battle screens now expose a stable accessible heading association.
 - Milestone 311: battle controls now form a labeled action group.
 - Milestone 312: the battle log now has an explicit landmark label.
+- Milestone 313: guild-unit selection now has a labeled control group.
+- Milestone 314: the selected guild unit now exposes aria-pressed state.
+- Milestone 315: battle round and active-unit status now announce through a live status region.
 
