@@ -324,4 +324,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 313: guild-unit selection now has a labeled control group.
 - Milestone 314: the selected guild unit now exposes aria-pressed state.
 - Milestone 315: battle round and active-unit status now announce through a live status region.
+- Milestone 316: campaign objectives now have stable identifiers for assistive descriptions.
+- Milestone 317: stage preparation controls now reference their stage title and objective.
+- Milestone 318: campaign-to-battle actions now retain context when read outside the visual card.
 
