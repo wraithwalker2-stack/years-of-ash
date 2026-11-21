@@ -339,4 +339,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 328: blocked battlefield cells now announce their blocked state.
 - Milestone 329: deployment confirmation now names the active stage.
 - Milestone 330: tactical exit now names the stage being left.
+- Milestone 331: the World Map now exposes a labeled landmark heading.
+- Milestone 332: location cards now announce their locked or unlocked state.
+- Milestone 333: travel controls now announce their destination and duration.
 
