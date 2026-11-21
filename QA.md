@@ -351,4 +351,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 340: roster tabs now identify the character panel they control.
 - Milestone 341: selected-character content now exposes a tabpanel landmark.
 - Milestone 342: changing characters now announces the updated ledger panel.
+- Milestone 343: the job-change selector now has an explicit accessible label.
+- Milestone 344: job-change guidance now has a stable help-text identifier.
+- Milestone 345: job requirements and unlock guidance are associated with the selector.
 
