@@ -330,4 +330,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 319: battle briefings now expose a named live status region.
 - Milestone 320: current battle-control mode now has an explicit accessible status label.
 - Milestone 321: the battle mode switch now exposes its AI/manual state with aria-pressed.
+- Milestone 322: the battlefield grid now references the live briefing region.
+- Milestone 323: the battlefield grid now references the current action status.
+- Milestone 324: tactical context remains connected as rounds and active units change.
 
