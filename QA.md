@@ -348,4 +348,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 337: the character ledger now exposes a labeled landmark heading.
 - Milestone 338: roster character controls now use a labeled tablist.
 - Milestone 339: the selected character now exposes aria-selected state.
+- Milestone 340: roster tabs now identify the character panel they control.
+- Milestone 341: selected-character content now exposes a tabpanel landmark.
+- Milestone 342: changing characters now announces the updated ledger panel.
 
