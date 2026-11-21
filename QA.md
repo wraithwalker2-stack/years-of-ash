@@ -333,4 +333,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 322: the battlefield grid now references the live briefing region.
 - Milestone 323: the battlefield grid now references the current action status.
 - Milestone 324: tactical context remains connected as rounds and active units change.
+- Milestone 325: blocked battlefield cells are unavailable to keyboard interaction.
+- Milestone 326: blocked-cell behavior now matches the tactical movement guardrail.
+- Milestone 327: the battle-control shortcut now exposes its M key hint.
 
