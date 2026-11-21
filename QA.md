@@ -342,4 +342,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 331: the World Map now exposes a labeled landmark heading.
 - Milestone 332: location cards now announce their locked or unlocked state.
 - Milestone 333: travel controls now announce their destination and duration.
+- Milestone 334: current world-map location now announces through a live status region.
+- Milestone 335: location cards now use their visible location heading as the accessible name.
+- Milestone 336: world-map status remains synchronized as the guild travels.
 
