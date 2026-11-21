@@ -336,4 +336,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 325: blocked battlefield cells are unavailable to keyboard interaction.
 - Milestone 326: blocked-cell behavior now matches the tactical movement guardrail.
 - Milestone 327: the battle-control shortcut now exposes its M key hint.
+- Milestone 328: blocked battlefield cells now announce their blocked state.
+- Milestone 329: deployment confirmation now names the active stage.
+- Milestone 330: tactical exit now names the stage being left.
 
