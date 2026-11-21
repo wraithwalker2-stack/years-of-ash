@@ -315,4 +315,7 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 304: sound control now has an explicit accessible label.
 - Milestone 305: theme control now has an explicit accessible label.
 - Milestone 306: the static shell now includes language, viewport, title, and game description metadata.
+- Milestone 307: each campaign stage card now exposes a stable accessible heading association.
+- Milestone 308: campaign stage titles now provide unique identifiers for assistive navigation.
+- Milestone 309: stage objectives now announce their objective context explicitly.
 
