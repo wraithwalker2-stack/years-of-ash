@@ -360,4 +360,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - M349–M351 Services Actions: Service controls retain explicit action naming and the shared service shell continues to expose balance feedback for assistive technology.
 - M352–M354 Battlefield Benchmarks: tactical stages report logical resolution, cohesion score, modularity, and explicit FFT footprint comparison.
 - M355–M357 Benchmark Guards: battlefield benchmark invariants now have automated regression coverage for tile math, modularity, cohesion range, and FFT comparison output.
+- M358–M360 Stage Brief QA: every campaign stage brief is regression-tested for dimensions, logical tile count, and FFT reference footprint.
 
