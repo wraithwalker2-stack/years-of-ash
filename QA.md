@@ -363,4 +363,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - M358–M360 Stage Brief QA: every campaign stage brief is regression-tested for dimensions, logical tile count, and FFT reference footprint.
 - M361–M363 Comparison Labels: benchmark output now has one canonical measurable label covering grid size, tiles, FFT footprint, cohesion, and modularity.
 - M364–M366 Game Loop Contract: documented the intended prepare → choose work → travel → deploy → resolve → return loop and the current foundation/next emphasis.
+- M367–M369 Magic Resource Foundation: magic skills now have power-scaled MP costs and explicit charge times, while physical active skills use stamina profiles.
 
