@@ -359,4 +359,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - Milestone 348: the shared Services shell now keeps Job Board, Market, Forge, and Codex context aligned.
 - M349–M351 Services Actions: Service controls retain explicit action naming and the shared service shell continues to expose balance feedback for assistive technology.
 - M352–M354 Battlefield Benchmarks: tactical stages report logical resolution, cohesion score, modularity, and explicit FFT footprint comparison.
+- M355–M357 Benchmark Guards: battlefield benchmark invariants now have automated regression coverage for tile math, modularity, cohesion range, and FFT comparison output.
 
