@@ -17,7 +17,7 @@ Years of Ash is a browser-based tactical guild RPG about building a company in a
 - **Small authored fields first:** the current tactical slice uses 8 × 6 logical tiles (48 tiles), compared with a 12 × 10 / 120-tile FFT-style reference footprint; the benchmark is intentionally explicit so fields can expand without losing cohesion or modularity.
 - **Consequences persist:** contracts affect reputation, travel advances the calendar, and battle rewards feed back into preparation.
 - **Readable decisions:** every stage reports objective, threat mix, terrain, enemy intent, and measurable field benchmarks before the campaign grows wider.
-- **Resource tension:** physical skills spend stamina; magic spends MP based on spell power, and stronger spells may require charge time that opponents can punish.
+- **Resource tension:** physical skills spend stamina; magic spends MP based on spell power, and stronger spells may require deliberate charge time. Charge is a timing cost, not an interruptible channel.
 
 ## Current foundation
 
