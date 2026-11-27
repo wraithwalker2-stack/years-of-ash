@@ -18,6 +18,7 @@ Years of Ash is a browser-based tactical guild RPG about building a company in a
 - **Consequences persist:** contracts affect reputation, travel advances the calendar, and battle rewards feed back into preparation.
 - **Readable decisions:** every stage reports objective, threat mix, terrain, enemy intent, and measurable field benchmarks before the campaign grows wider.
 - **Resource tension:** physical skills spend stamina; magic spends MP based on spell power, and stronger spells may require deliberate charge time. Charge is a timing cost, not an interruptible channel.
+- **Recovery pacing:** stamina returns gradually between turns; MP does not refill automatically, preserving the importance of magical preparation and supplies.
 
 ## Current foundation
 
