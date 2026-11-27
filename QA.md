@@ -369,4 +369,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - M376–M378 Resource Spending: skill execution now spends stamina or power-scaled MP and blocks unaffordable skills; charge time remains non-interruptible timing.
 - M379–M381 Resource Recovery: stamina recovers by one at turn boundaries while MP remains limited until explicit recovery systems are added.
 - M382–M384 MP Recovery Supply: added capped explicit MP restoration and an Aether Vial market supply for future expedition use.
+- M385–M387 Skill Cost Labels: standardized MP, stamina, no-cost, and charge-time labels for preparation and battle surfaces.
 
