@@ -370,4 +370,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - M379–M381 Resource Recovery: stamina recovers by one at turn boundaries while MP remains limited until explicit recovery systems are added.
 - M382–M384 MP Recovery Supply: added capped explicit MP restoration and an Aether Vial market supply for future expedition use.
 - M385–M387 Skill Cost Labels: standardized MP, stamina, no-cost, and charge-time labels for preparation and battle surfaces.
+- M388–M390 Aether Vial Action: battle expeditions can consume an Aether Vial with the E action to restore up to 8 MP; it consumes the unit action and never interrupts charge timing.
 
