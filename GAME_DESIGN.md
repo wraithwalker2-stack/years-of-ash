@@ -23,6 +23,7 @@ Years of Ash is a browser-based tactical guild RPG about building a company in a
 - **Expedition use:** Aether Vials are a tactical action, consume one supply and the unit action, and do not interrupt an active charge.
 - **Persistence:** Using a vial removes it from the authoritative guild inventory immediately, preventing duplicate supply use across save/load boundaries.
 - **Discoverability:** The tactical action bar shows the current Aether Vial count and exposes the same MP recovery action as a button plus the `E` shortcut.
+- **Action guidance:** The supply action communicates its up-to-8 MP effect, one-action cost, and charge-timing rule directly at the point of use.
 
 ## Current foundation
 

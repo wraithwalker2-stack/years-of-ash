@@ -373,4 +373,5 @@ The restart packet’s later milestones still require richer enemy AI, deeper ha
 - M388–M390 Aether Vial Action: battle expeditions can consume an Aether Vial with the E action to restore up to 8 MP; it consumes the unit action and never interrupts charge timing.
 - M391–M393 Persisted Supply Use: Aether Vial consumption now updates the authoritative inventory/save state while the battle-local supply count remains synchronized.
 - M394–M396 Visible Supply Action: battle controls now expose the Aether Vial count and a disabled-safe “Use Aether Vial (E)” action alongside the keyboard shortcut.
+- M397–M399 Resource Guidance: the Aether Vial action now explains its capped MP recovery, one-action cost, remaining supply count, and non-interruptible charge behavior through title and accessible-label guidance.
 
