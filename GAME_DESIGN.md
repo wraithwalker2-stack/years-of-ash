@@ -20,6 +20,7 @@ Years of Ash is a browser-based tactical guild RPG about building a company in a
 - **Resource tension:** physical skills spend stamina; magic spends MP based on spell power, and stronger spells may require deliberate charge time. Charge is a timing cost, not an interruptible channel.
 - **Recovery pacing:** stamina returns gradually between turns; MP does not refill automatically, preserving the importance of magical preparation and supplies.
 - **Magical supplies:** Aether Vials are the explicit MP recovery path; they restore MP up to the unit’s maximum rather than creating passive regeneration.
+- **Expedition use:** Aether Vials are a tactical action, consume one supply and the unit action, and do not interrupt an active charge.
 
 ## Current foundation
 
